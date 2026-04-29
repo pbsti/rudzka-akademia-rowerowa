@@ -12,9 +12,8 @@ Template Name: Events and Registration Page
            $newsimg1 = get_field('news_1');
            $newsimg2 = get_field('news_2');
            $campimg = get_field('camp_image');
-           $contactimgevents = get_field('events_contact');
-                             
-        ?>
+           $contactimgevents = get_field('events_contact');               
+           ?>
 
         <div class="container-primary">
                     <div class="split-container">

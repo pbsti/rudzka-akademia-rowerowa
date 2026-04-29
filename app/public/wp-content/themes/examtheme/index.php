@@ -6,9 +6,6 @@
            $eventimagechildren = get_field('event_image_left');
            $eventimageadults = get_field('event_image_right');
            $contactimage = get_field('contact_image');
-           
-           
-           
            ?>
 
             <!-- Hero Section -->
