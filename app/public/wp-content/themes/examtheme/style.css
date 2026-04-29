@@ -1,0 +1,334 @@
+/* Global Styles */
+
+:root {
+  --primary-color: #9AC31B;
+  --secondary-color: #12A19A;
+  --tertiary-color: #1E212B;
+  --light-color: #F0FFFE;
+  --dark-color: #010101;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2 {
+  font-family: 'Baloo Chettan 2', cursive;
+  font-size: 2rem;
+}
+
+h3 {
+  font-family: 'Baloo Chettan 2', cursive;
+  font-size: 1.5rem;
+}
+
+p {
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+/* Buttons */
+
+.btn-primary {
+  display: inline-block;
+  font-family: 'Baloo Chettan 2', cursive;
+  padding: 0.75rem 2rem;
+  border: none;
+  border-radius: 100px;
+  background-color: var(--primary-color);
+  color: var(--tertiary-color);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.btn-secondary {
+  display: inline-block;
+  font-family: 'Baloo Chettan 2', cursive;
+  padding: 0.75rem 2rem;
+  border: none;
+  border-radius: 100px;
+  background-color: var(--secondary-color);
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.btn-light {
+  display: inline-block;
+  font-family: 'Baloo Chettan 2', cursive;
+  padding: 0.75rem 2rem;
+  border: solid 3px var(--light-color);
+  border-radius: 100px;
+  background-color: transparent;
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+/* Hero Section */
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #f4f4f4;
+}
+
+.hero-content {
+  width: 60%;
+}
+
+.hero-content p{
+  margin-bottom: 3rem;
+}
+
+/* Contact Section */
+.contact{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #f4f4f4; 
+  padding: 6rem 0;
+}
+
+.contact-content {
+  width: 60%;
+}
+
+.contact p{
+  margin-bottom: 2rem;
+}
+
+.button-container {
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
+}
+
+/* Containers */
+.container-primary {
+  background-color: var(--light-color);
+  color: #010101;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 6rem 0;
+  gap: 2rem;
+}
+
+.container-secondary {
+  background-color: var(--tertiary-color);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 6rem 0;
+  gap: 2rem;
+}
+
+.container {
+  width: 60%;
+  display: flex;
+  gap: 2rem;
+  justify-content: space-around;
+}
+
+.inner-container {
+  width: 100%;
+  gap: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.split-container {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+}
+
+.facts {
+  width: 100%;
+  background-color: var(--secondary-color);
+  color: #fff;
+  font-size: larger;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  padding: 4rem 1rem;
+  gap: 1rem;
+}
+
+.facts p {
+  font-family: 'Baloo Chettan 2', cursive; 
+  margin: 0;
+}
+
+.contact-icon{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.faq-box{
+  width: 60%;
+  background-color: var(--tertiary-color);
+  color: #fff;
+  font-size: larger;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border-radius: 25px;
+  padding: 2rem 2rem;
+}
+
+.faq-box p{
+  text-align: left;
+}
+
+.container-camps{
+  width: 60%;
+  display: flex;
+  align-items: center;
+}
+
+.image-container {
+  width: 100%;
+  height: 60vh;
+  color: #fff;
+  font-size: larger;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  border-radius: 25px;
+}
+
+/* Footer */
+.footer-content {
+  background-color: var(--light-color);
+  color:var(--tertiary-color);
+  display: flex;
+  justify-content:space-between;
+  text-align: center;
+  padding: 2rem 2rem;
+}
+
+.footer-logo{
+  display: flex;
+  align-items: center;
+}
+
+.quick-links a{
+  color: var(--tertiary-color);
+  text-decoration: none;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 500;
+}
+
+.quick-links a:hover {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+.social-icons a {
+  color: var(--tertiary-color);
+  font-size: 1.5rem;
+}
+
+.social-icons a:hover {
+  color: var(--primary-color);
+}
+
+.footer-icons{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+/* Images */
+
+.events-image{
+  background: url('original/images/noemie-cauchon-U0Qwham8MSU-unsplash.jpg') no-repeat center center/cover;
+}
+
+.news-image-1{
+  background: url('original/images/clement-ader-wa6Wb0enM-Y-unsplash.jpg') no-repeat center center/cover;
+}
+
+.news-image-2{
+  background: url('original/images/philipp-mandler-FElQtEhsUec-unsplash.jpg') no-repeat center center/cover;
+}
+
+.camps-image{
+  background: url('original/images/anderson-schmig-f7b6WX_p1N0-unsplash.jpg') no-repeat center center/cover;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .split-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 90%;
+  }
+
+  .split-container {
+    width: 90%;
+  }
+
+  .btn-primary, .btn-light{
+    padding: 0.5rem 2rem;
+    font-size: 0.9rem;
+  }
+
+  .facts{
+    width: 50%;
+  }
+
+  .image-container {
+    height: 40vh;
+  }
+
+  .container-primary, .container-secondary {
+    padding: 4rem 0;
+  }
+
+  .contact-icon{
+    flex-direction: column;
+  }
+
+  .contact-us p{
+    margin: 0 2rem;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+}
