@@ -27,7 +27,7 @@
                     <div class="inner-container"> <i class="fa-solid fa-user-check" style="font-size: 4rem;"></i> <p>Over 10 years experience</p></div>
                     <div class="inner-container"> <i class="fa-solid fa-apple-whole" style="font-size: 4rem;"></i> <p>Advice on nutrition</p></div>
                 </div>
-                <a href="about-page.php" class="btn btn-secondary">LEARN MORE</a>
+                <a href="about-page.php" class="btn btn-secondary">Dowiedz się więcej</a>
             </section>
 
             <!-- Events Section -->
@@ -37,7 +37,7 @@
                     <div class="image-container event-image-1 " style="background: url(<?php echo esc_url($eventimagechildren["url"])?>) no-repeat center center/cover;"><p>Children/Youth</p></div>
                     <div class="image-container event-image-2" style="background: url(<?php echo esc_url($eventimageadults["url"])?>) no-repeat center center/cover;"><p>Adults</p></div>
                 </div>
-                <a href="events.php" class="btn btn-secondary">REGISTER NOW</a>
+                <a href="events.php" class="btn btn-secondary">Dołącz do nas</a>
             </section>
 
             <!-- Testimonials Section -->
@@ -52,8 +52,8 @@
                     <h2>Still feel unsure of what to pick?</h2>
                     <p>You are always welcome to contact us and find out together how to begin your cycling journey.</p>
                     <div class="button-container">
-                        <a href="contact.php" class="btn btn-primary">CALL US</a>
-                        <a href="contact.php" class="btn btn-light">SEND A MESSAGE</a>
+                        <a href="contact.php" class="btn btn-primary">Zadzwoń do nas</a>
+                        <a href="contact.php" class="btn btn-light">Wyślij wiadomość</a>
                     </div>
                 </div>
             </section>

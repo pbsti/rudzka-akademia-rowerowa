@@ -15,7 +15,8 @@
 <header class="nav-header">
     <div class="nav-inner">
         <a class="nav-branding desktop-only" href="<?php echo esc_url(home_url('/')); ?>">
-            <img class="nav-logo" src="<?php echo get_template_directory_uri(); ?>/original/images/logo.png" alt="<?php bloginfo('name'); ?> logo" />
+            <?php $logo_image = get_field('logo_image'); ?>
+            <img class="nav-logo" src="<?php echo esc_url($logo_image['url']); ?>" alt="<?php bloginfo('name'); ?> logo" />
         </a>
 
         <button class="nav-toggle" aria-expanded="false" aria-controls="primary-menu" aria-label="Open menu">
@@ -26,7 +27,8 @@
         <nav class="navigation-area" aria-label="Primary navigation">
             <div class="mobile-nav-header mobile-only">
                 <a class="nav-branding mobile-branding" href="<?php echo esc_url(home_url('/')); ?>">
-                    <img class="nav-logo mobile-logo" src="<?php echo get_template_directory_uri(); ?>/original/images/logo.png" alt="<?php bloginfo('name'); ?> logo" />
+                    <?php $logo_image_mobile = get_field('logo_image'); ?>
+                    <img class="nav-logo mobile-logo" src="<?php echo esc_url($logo_image_mobile['url']); ?>" alt="<?php bloginfo('name'); ?> logo" />
                 </a>
             </div>
             <?php if ( has_nav_menu('primary') ) : ?>
@@ -39,11 +41,10 @@
                 )); ?>
             <?php else : ?>
                 <ul class="nav-menu" id="primary-menu">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About Us</a></li>
-                    <li><a href="#events">Events</a></li>
-                    <li><a href="#news">News</a></li>
-                    <a class="btn-primary" href="#contact">Contact</a>
+                    <li><a href="#home">Strona główna</a></li>
+                    <li><a href="#about">O nas</a></li>
+                    <li><a href="#events">Wydarzenia</a></li>
+                    <a class="btn-primary" href="#contact">Zapisz się</a>
                 </ul>
             <?php endif; ?>
             <div class="mobile-social mobile-only">

@@ -13,8 +13,8 @@ Template Name: Contact Page
               ?>
            
             <section id="contact-us" class="contact-us container-secondary">
-                <h2>DO YOU HAVE ANY QUESTIONS?</h2>
-                <p> We will make sure to get the answers you need as soon as possible.</p>
+                <h2>Masz jakieś pytania?</h2>
+                <p> Zadbamy, abyśmy dostarczyli odpowiedzi, które potrzebujesz, tak szybko, jak to możliwe.</p>
                 <div class="container">
                     <div class="inner-container contact-icon"><i class="fa-solid fa-phone" style="font-size: 3rem;"></i><p><?php echo $Phonecontact; ?></p></div>
                     <div class="inner-container contact-icon"><i class="fa-solid fa-envelope" style="font-size: 3rem;"></i><p><?php echo $EmailContact; ?></p></div>
@@ -23,7 +23,7 @@ Template Name: Contact Page
 
             <!-- Contact Form Section -->
             <section id="contact-form" class="contact-form container-primary">
-                <h2>SEND A MESSAGE</h2>
+                <h2>Wyślij do nas wiadomość</h2>
             </section>
         
             <!-- FAQ Section --> 

@@ -71,8 +71,8 @@ Template Name: Events and Registration Page
                     <h2>Still feel unsure of what to pick?</h2>
                     <p>You are always welcome to contact us and find out together how to begin your cycling journey.</p>
                     <div class="button-container">
-                        <a href="contact.html" class="btn btn-primary">CALL US</a>
-                        <a href="contact.html" class="btn btn-light">SEND A MESSAGE</a>
+                        <a href="contact.html" class="btn btn-primary">Zadzwoń do nas</a>
+                        <a href="contact.html" class="btn btn-light">Wyślij wiadomość</a>
                     </div>
                     </div>
                 </section>
