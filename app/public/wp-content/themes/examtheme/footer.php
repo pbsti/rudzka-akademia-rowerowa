@@ -30,6 +30,28 @@
         </div>
         <p class="copyright">© 2026 Rudzka Akademia Rowerowa. All rights reserved.</p>
     </footer>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var header = document.querySelector('.site-header');
+    var toggle = document.querySelector('.nav-toggle');
+    var nav = document.querySelector('.site-navigation');
+    if (!header || !toggle || !nav) {
+      return;
+    }
+
+    toggle.addEventListener('click', function () {
+      var expanded = this.getAttribute('aria-expanded') === 'true';
+      this.setAttribute('aria-expanded', String(!expanded));
+      header.classList.toggle('nav-open');
+      nav.classList.toggle('open');
+      var icon = this.querySelector('i');
+      if (icon) {
+        icon.classList.toggle('fa-bars');
+        icon.classList.toggle('fa-xmark');
+      }
+    });
+  });
+</script>
 <?php wp_footer()?>
 </body>
 </html>
