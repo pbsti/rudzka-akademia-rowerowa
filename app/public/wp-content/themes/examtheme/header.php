@@ -41,10 +41,10 @@
                 )); ?>
             <?php else : ?>
                 <ul class="nav-menu" id="primary-menu">
-                    <li><a href="#home">Strona główna</a></li>
-                    <li><a href="#about">O nas</a></li>
-                    <li><a href="#events">Wydarzenia</a></li>
-                    <a class="btn-primary" href="#contact">Zapisz się</a>
+                    <li><a href="<?php echo esc_url(get_permalink(get_page_by_path('frontpage'))); ?>">Strona główna</a></li>
+                    <li><a href="<?php echo esc_url(get_permalink(get_page_by_path('about'))); ?>">O nas</a></li>
+                    <li><a href="<?php echo esc_url(get_permalink(get_page_by_path('events-page'))); ?>">Wydarzenia</a></li>
+                    <a class="btn-primary" href="<?php echo esc_url(get_permalink(get_page_by_path('contact-page'))); ?>">Zapisz się</a>
                 </ul>
             <?php endif; ?>
             <div class="mobile-social mobile-only">
