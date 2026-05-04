@@ -12,10 +12,10 @@
 
 <body <?php body_class(); ?> >
 <?php wp_body_open(); ?>
-<header class="site-header">
-    <div class="header-inner">
-        <a class="site-branding desktop-only" href="<?php echo esc_url(home_url('/')); ?>">
-            <img class="site-logo" src="<?php echo get_template_directory_uri(); ?>/original/images/logo.png" alt="<?php bloginfo('name'); ?> logo" />
+<header class="nav-header">
+    <div class="nav-inner">
+        <a class="nav-branding desktop-only" href="<?php echo esc_url(home_url('/')); ?>">
+            <img class="nav-logo" src="<?php echo get_template_directory_uri(); ?>/original/images/logo.png" alt="<?php bloginfo('name'); ?> logo" />
         </a>
 
         <button class="nav-toggle" aria-expanded="false" aria-controls="primary-menu" aria-label="Open menu">
@@ -23,10 +23,10 @@
             <span class="screen-reader-text">Toggle navigation</span>
         </button>
 
-        <nav class="site-navigation" aria-label="Primary navigation">
+        <nav class="navigation-area" aria-label="Primary navigation">
             <div class="mobile-nav-header mobile-only">
-                <a class="site-branding mobile-branding" href="<?php echo esc_url(home_url('/')); ?>">
-                    <img class="site-logo mobile-logo" src="<?php echo get_template_directory_uri(); ?>/original/images/logo.png" alt="<?php bloginfo('name'); ?> logo" />
+                <a class="nav-branding mobile-branding" href="<?php echo esc_url(home_url('/')); ?>">
+                    <img class="nav-logo mobile-logo" src="<?php echo get_template_directory_uri(); ?>/original/images/logo.png" alt="<?php bloginfo('name'); ?> logo" />
                 </a>
             </div>
             <?php if ( has_nav_menu('primary') ) : ?>
@@ -43,36 +43,36 @@
                     <li><a href="#about">About Us</a></li>
                     <li><a href="#events">Events</a></li>
                     <li><a href="#news">News</a></li>
-                    <li><a class="btn-primary" href="#contact">Contact</a></li>
+                    <a class="btn-primary" href="#contact">Contact</a>
                 </ul>
             <?php endif; ?>
             <div class="mobile-social mobile-only">
                 <a href="https://instagram.com" class="social-link" target="_blank" rel="noopener noreferrer">
-                    <i class="fab fa-instagram" aria-hidden="true"></i>
+                    <i class="fab fa-instagram" style="font-size: 1.5rem;" aria-hidden="true"></i>
                     <span class="screen-reader-text">Instagram</span>
                 </a>
                 <a href="https://tiktok.com" class="social-link" target="_blank" rel="noopener noreferrer">
-                    <i class="fab fa-tiktok" aria-hidden="true"></i>
+                    <i class="fab fa-tiktok" style="font-size: 1.5rem;" aria-hidden="true"></i>
                     <span class="screen-reader-text">TikTok</span>
                 </a>
                 <a href="https://facebook.com" class="social-link" target="_blank" rel="noopener noreferrer">
-                    <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                    <i class="fab fa-facebook-f" style="font-size: 1.5rem;" aria-hidden="true"></i>
                     <span class="screen-reader-text">Facebook</span>
                 </a>
             </div>
         </nav>
 
-        <div class="header-actions desktop-only">
+        <div class="nav-social desktop-only">
             <a href="https://instagram.com" class="social-link" target="_blank" rel="noopener noreferrer">
-                <i class="fab fa-instagram" aria-hidden="true"></i>
+                <i class="fab fa-instagram" style="font-size: 1.5rem;" aria-hidden="true"></i>
                 <span class="screen-reader-text">Instagram</span>
             </a>
             <a href="https://tiktok.com" class="social-link" target="_blank" rel="noopener noreferrer">
-                <i class="fab fa-tiktok" aria-hidden="true"></i>
+                <i class="fab fa-tiktok" style="font-size: 1.5rem;" aria-hidden="true"></i>
                 <span class="screen-reader-text">TikTok</span>
             </a>
             <a href="https://facebook.com" class="social-link" target="_blank" rel="noopener noreferrer">
-                <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                <i class="fab fa-facebook-f" style="font-size: 1.5rem;" aria-hidden="true"></i>
                 <span class="screen-reader-text">Facebook</span>
             </a>
         </div>

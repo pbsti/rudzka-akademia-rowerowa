@@ -22,9 +22,9 @@
         <div class="social-icons">
             <h3>Follow Us</h3>
             <div class="footer-icons">
-            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-            <a href="#"><i class="fa-brands fa-tiktok"></i></a>
-            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa-brands fa-tiktok" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook" aria-hidden="true"></i></a>
             </div>
         </div>
         </div>
@@ -32,9 +32,9 @@
     </footer>
 <script>
   document.addEventListener('DOMContentLoaded', function () {
-    var header = document.querySelector('.site-header');
+    var header = document.querySelector('.nav-header');
     var toggle = document.querySelector('.nav-toggle');
-    var nav = document.querySelector('.site-navigation');
+    var nav = document.querySelector('.navigation-area');
     if (!header || !toggle || !nav) {
       return;
     }
