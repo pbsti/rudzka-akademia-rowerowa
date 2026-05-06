@@ -1,11 +1,9 @@
     <footer>
-        <?php
-        $logoimage = get_field('logo_image');
-        ?>
+        <?php $logo_url = get_stylesheet_directory_uri() . '/original/images/logo.png'; ?>
 
         <div class="footer-content">
         <div class="footer-logo">
-            <img src="<?php echo esc_url($logoimage['url']) ?>" alt="Rudzka Akademia Rowerowa Logo" style="height: 8rem;">
+            <img src="<?php echo esc_url($logo_url); ?>" alt="Rudzka Akademia Rowerowa Logo" style="height: 8rem;">
         </div>
         <div class="contact-info">
             <h3>Kontakt</h3>
@@ -15,9 +13,9 @@
         </div>
         <div class="quick-links">
             <h3>Szybkie linki</h3>
-            <p><a href="index.php">Home</a></p>
-            <p><a href="about-page.php">About</a></p>
-            <p><a href="contact.php">Contact</a></p>
+            <p><a href="<?php echo esc_url(get_permalink(get_page_by_path('frontpage'))); ?>">Strona główna</a></p>
+            <p><a href="<?php echo esc_url(get_permalink(get_page_by_path('about'))); ?>">O nas</a></p>
+            <p><a href="<?php echo esc_url(get_permalink(get_page_by_path('contact-page'))); ?>">Kontakt</a></p>
         </div>
         <div class="social-icons">
             <h3>Zaobserwuj nas</h3>
@@ -30,28 +28,28 @@
         </div>
         <p class="copyright">© 2026 Rudzka Akademia Rowerowa. All rights reserved.</p>
     </footer>
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
-    var header = document.querySelector('.nav-header');
-    var toggle = document.querySelector('.nav-toggle');
-    var nav = document.querySelector('.navigation-area');
-    if (!header || !toggle || !nav) {
-      return;
-    }
+      <script>
+        document.addEventListener('DOMContentLoaded', function () {
+          var header = document.querySelector('.nav-header');
+          var toggle = document.querySelector('.nav-toggle');
+          var nav = document.querySelector('.navigation-area');
+            if (!header || !toggle || !nav) {
+              return;
+            }
 
-    toggle.addEventListener('click', function () {
-      var expanded = this.getAttribute('aria-expanded') === 'true';
-      this.setAttribute('aria-expanded', String(!expanded));
-      header.classList.toggle('nav-open');
-      nav.classList.toggle('open');
-      var icon = this.querySelector('i');
-      if (icon) {
-        icon.classList.toggle('fa-bars');
-        icon.classList.toggle('fa-xmark');
-      }
-    });
-  });
-</script>
+          toggle.addEventListener('click', function () {
+            var expanded = this.getAttribute('aria-expanded') === 'true';
+            this.setAttribute('aria-expanded', String(!expanded));
+            header.classList.toggle('nav-open');
+            nav.classList.toggle('open');
+            var icon = this.querySelector('i');
+              if (icon) {
+                icon.classList.toggle('fa-bars');
+                icon.classList.toggle('fa-xmark');
+              }
+          });
+        });
+      </script>
 <?php wp_footer()?>
 </body>
 </html>

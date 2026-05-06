@@ -12,27 +12,31 @@ if ( isset( $_POST['contact_name'] ) && isset( $_POST['contact_nonce'] ) && wp_v
     if ( ! empty( $name ) && ! empty( $email ) && is_email( $email ) ) {
         // Save to database
         $post_id = wp_insert_post( array(
-            'post_title' => $name . ' - ' . $topic,
+            'post_title'   => $name . ' - ' . $topic,
             'post_content' => $message,
-            'post_type' => 'contact_form_answers',
-            'post_status' => 'publish',
+            'post_type'    => 'contact_form_answers',
+            'post_status'  => 'publish',
         ) );
 
-        // Save ACF fields
-        update_field( 'contact_name', $name, $post_id );
-        update_field( 'contact_email', $email, $post_id );
-        update_field( 'contact_topic', $topic, $post_id );
-        update_field( 'contact_message', $message, $post_id );
+        if ( $post_id && ! is_wp_error( $post_id ) ) {
+            // Save ACF fields if ACF is active
+            if ( function_exists( 'update_field' ) ) {
+                update_field( 'contact_name', $name, $post_id );
+                update_field( 'contact_email', $email, $post_id );
+                update_field( 'contact_topic', $topic, $post_id );
+                update_field( 'contact_message', $message, $post_id );
+            }
 
-        // Send email
-        $to = get_option( 'admin_email' );
-        $subject = 'New Contact Form Submission: ' . $topic;
-        $body = "Name: $name\nEmail: $email\nTopic: $topic\nMessage: $message";
-        wp_mail( $to, $subject, $body );
+            // Send email
+            $to      = get_option( 'admin_email' );
+            $subject = 'New Contact Form Submission: ' . $topic;
+            $body    = "Name: $name\nEmail: $email\nTopic: $topic\nMessage: $message";
+            wp_mail( $to, $subject, $body );
 
-        // Redirect with success
-        wp_redirect( add_query_arg( 'form', 'success', get_permalink() ) );
-        exit;
+            // Redirect with success
+            wp_redirect( add_query_arg( 'form', 'success', get_permalink() ) );
+            exit;
+        }
     }
 }
 

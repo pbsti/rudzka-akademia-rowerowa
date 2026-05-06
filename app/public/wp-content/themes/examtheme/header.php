@@ -12,11 +12,11 @@
 
 <body <?php body_class(); ?> >
 <?php wp_body_open(); ?>
+<?php $logo_url = get_stylesheet_directory_uri() . '/original/images/logo.png'; ?>
 <header class="nav-header">
     <div class="nav-inner">
         <a class="nav-branding desktop-only" href="<?php echo esc_url(home_url('/')); ?>">
-            <?php $logo_image = get_field('logo_image'); ?>
-            <img class="nav-logo" src="<?php echo esc_url($logo_image['url']); ?>" alt="<?php bloginfo('name'); ?> logo" />
+            <img class="nav-logo" src="<?php echo esc_url( $logo_url ); ?>" alt="<?php bloginfo('name'); ?> logo" />
         </a>
 
         <button class="nav-toggle" aria-expanded="false" aria-controls="primary-menu" aria-label="Open menu">
@@ -27,8 +27,7 @@
         <nav class="navigation-area" aria-label="Primary navigation">
             <div class="mobile-nav-header mobile-only">
                 <a class="nav-branding mobile-branding" href="<?php echo esc_url(home_url('/')); ?>">
-                    <?php $logo_image_mobile = get_field('logo_image'); ?>
-                    <img class="nav-logo mobile-logo" src="<?php echo esc_url($logo_image_mobile['url']); ?>" alt="<?php bloginfo('name'); ?> logo" />
+                    <img class="nav-logo mobile-logo" src="<?php echo esc_url( $logo_url ); ?>" alt="<?php bloginfo('name'); ?> logo" />
                 </a>
             </div>
             <?php if ( has_nav_menu('primary') ) : ?>
