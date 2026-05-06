@@ -1,30 +1,39 @@
     <footer>
-        <?php $logo_url = get_stylesheet_directory_uri() . '/original/images/logo.png'; ?>
+      <?php $logo_url = get_stylesheet_directory_uri() . '/original/images/logo.png'; ?>
 
         <div class="footer-content">
-        <div class="footer-logo">
-            <img src="<?php echo esc_url($logo_url); ?>" alt="Rudzka Akademia Rowerowa Logo" style="height: 8rem;">
-        </div>
-        <div class="contact-info">
+          <div class="footer-logo">
+              <img src="<?php echo esc_url($logo_url); ?>" alt="Rudzka Akademia Rowerowa Logo" style="height: 8rem;">
+          </div>
+          <div class="contact-info">
             <h3>Kontakt</h3>
-            <p>email</p>
-            <p>phone</p>
-            <p>address</p>
-        </div>
-        <div class="quick-links">
+            <a href="mailto:info@rudzkaakademia.pl">
+              <i class="fa-solid fa-envelope" style="font-size: 2rem; color: #1E212B;"></i>
+              <p>info@rudzkaakademia.pl</p>
+            </a>
+            <a href="tel:+48 602 480 400">
+              <i class="fa-solid fa-phone" style="font-size: 2rem; color: #1E212B;"></i>
+              <p>+48 602 480 400</p>
+            </a>
+            <a href="https://maps.google.com/?q=Rudzka Akademia Rowerowa" target="_blank">
+              <i class="fa-solid fa-map-marker-alt" style="font-size: 2rem; color: #1E212B;"></i>
+              <p>Rudzka Akademia Rowerowa</p>
+            </a>
+          </div>
+          <div class="quick-links">
             <h3>Szybkie linki</h3>
             <p><a href="<?php echo esc_url(get_permalink(get_page_by_path('frontpage'))); ?>">Strona główna</a></p>
             <p><a href="<?php echo esc_url(get_permalink(get_page_by_path('about'))); ?>">O nas</a></p>
             <p><a href="<?php echo esc_url(get_permalink(get_page_by_path('contact-page'))); ?>">Kontakt</a></p>
-        </div>
-        <div class="social-icons">
+          </div>
+          <div class="social-icons">
             <h3>Zaobserwuj nas</h3>
             <div class="footer-icons">
             <a href="#"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
             <a href="#"><i class="fa-brands fa-tiktok" aria-hidden="true"></i></a>
             <a href="#"><i class="fa-brands fa-facebook" aria-hidden="true"></i></a>
             </div>
-        </div>
+          </div>
         </div>
         <p class="copyright">© 2026 Rudzka Akademia Rowerowa. Wszelkie prawa zastrzeżone.</p>
     </footer>

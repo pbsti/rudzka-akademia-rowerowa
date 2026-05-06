@@ -19,13 +19,13 @@ Template Name: About Page
     
             <section id="hero-about" class="hero hero-about " style="background: url(<?php echo esc_url($aboutheroimg["url"])?>) no-repeat center center/cover;">
                 <div class="hero-content">
-                    <h1>MEET THE TEAM</h1>
+                    <h1>POZNAJ ZESPÓŁ</h1>
                 </div>
             </section>
 
             <!-- Mission Section -->
             <section id="mission" class="container-primary">
-                <h2>OUR MISSION</h2>
+                <h2> Nasza misja </h2>
                 <div class="container">
                     <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu.</p>
                 </div>
@@ -41,7 +41,7 @@ Template Name: About Page
                     <div class="inner-container">
                         <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu.</p>
                         <div class="button-container">
-                            <a href="events.html" class="btn btn-secondary">APPLY NOW</a>
+                            <a href="events.html" class="btn btn-secondary">ZŁÓŻ WNIOSEK TERAZ</a>
                         </div>
                     </div>
                     <div class="image-container about-image " style="background: url(<?php echo esc_url($aboutimg["url"])?>) no-repeat center center/cover;"></div>
@@ -50,7 +50,7 @@ Template Name: About Page
 
             <!-- Team Section -->
             <section id="team" class="team container-primary">
-                <h2>OUR TEAM</h2>
+                <h2>NASZ ZESPÓŁ</h2>
                 <div class="container">
                 <div class="image-container team-image-1" style="background: url(<?php echo esc_url($teamimg1["url"])?>) no-repeat center center/cover;"><p>John Doe</p></div>
                 <div class="image-container team-image-2" style="background: url(<?php echo esc_url($teamimg2["url"])?>) no-repeat center center/cover;"><p>Jane Smith</p></div>
@@ -60,8 +60,8 @@ Template Name: About Page
             <!-- Contact Section -->
             <section id="contact" class="contact" style="background: url(<?php echo esc_url($aboutcontactimg["url"])?>) no-repeat center center/cover;">
                 <div class="contact-content">
-                <h2>Still feel unsure of what to pick?</h2>
-                <p>You are always welcome to contact us and find out together how to begin your cycling journey.</p>
+                <h2>Nadal nie wiesz, co wybrać?</h2>
+                <p>Jesteś zawsze zaproszony do kontaktu z nami i wspólnego odkrywania, jak rozpocząć swoją podróż rowerową.</p>
                 <div class="button-container">
                     <a href="contact.html" class="btn btn-primary">Zadzwoń do nas</a>
                     <a href="contact.html" class="btn btn-light">Wyślij wiadomość</a>
