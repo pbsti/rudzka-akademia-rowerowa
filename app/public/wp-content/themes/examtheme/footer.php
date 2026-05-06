@@ -26,7 +26,7 @@
             </div>
         </div>
         </div>
-        <p class="copyright">© 2026 Rudzka Akademia Rowerowa. All rights reserved.</p>
+        <p class="copyright">© 2026 Rudzka Akademia Rowerowa. Wszelkie prawa zastrzeżone.</p>
     </footer>
       <script>
         document.addEventListener('DOMContentLoaded', function () {

@@ -169,6 +169,7 @@ body {
 h1, h2 {
   font-family: 'Baloo Chettan 2', cursive;
   font-size: 2rem;
+  text-transform: uppercase;
 }
 
 h3 {
@@ -349,7 +350,6 @@ p {
   align-items: flex-end;
   border-radius: 25px;
 }
-
 /* Testimonials Section */
 .testimonial-card {
   background-color:transparent;
