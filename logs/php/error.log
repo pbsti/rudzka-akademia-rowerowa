@@ -674,3 +674,7 @@ Stack trace:
 [06-May-2026 09:53:07 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Q\Local Sites\rudzka-akademia-rowerowa\app\public\wp-content\themes\examtheme\footer.php on line 8
 [06-May-2026 09:53:12 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Q\Local Sites\rudzka-akademia-rowerowa\app\public\wp-content\themes\examtheme\footer.php on line 8
 [06-May-2026 09:53:14 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Q\Local Sites\rudzka-akademia-rowerowa\app\public\wp-content\themes\examtheme\footer.php on line 8
+[06-May-2026 12:20:16 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Q\Local Sites\rudzka-akademia-rowerowa\app\public\wp-content\themes\examtheme\index.php on line 12
+[06-May-2026 12:20:16 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Q\Local Sites\rudzka-akademia-rowerowa\app\public\wp-content\themes\examtheme\index.php on line 37
+[06-May-2026 12:20:16 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Q\Local Sites\rudzka-akademia-rowerowa\app\public\wp-content\themes\examtheme\index.php on line 38
+[06-May-2026 12:20:16 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Q\Local Sites\rudzka-akademia-rowerowa\app\public\wp-content\themes\examtheme\index.php on line 50

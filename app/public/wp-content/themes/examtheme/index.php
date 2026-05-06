@@ -43,7 +43,7 @@
             <!-- Testimonials Section -->
             <section id="testimonials" class="testimonials container-secondary">
                 <h2>WHAT PEOPLE SAY</h2>
-                <div class="container"></div>
+                <?php get_template_part('template-parts/index', 'testimonial'); ?>
             </section>
 
             <!-- Contact Section -->

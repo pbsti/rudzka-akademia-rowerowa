@@ -241,112 +241,6 @@ p {
   margin-bottom: 3rem;
 }
 
-/* Contact Section */
-.contact{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  color: #f4f4f4; 
-  padding: 6rem 0;
-}
-
-.contact-content {
-  width: 60%;
-}
-
-.contact p{
-  margin-bottom: 2rem;
-}
-
-.button-container {
-  display: flex;
-  gap: 4rem;
-  justify-content: center;
-}
-
-/* Contact Form */
-
-.contact-form-card {
-  width: 60%;
-  background-color: var(--light-color);
-  padding: 2.5rem;
-  border-radius: 24px;
-  border: 2px solid var(--primary-color);
-}
-
-.contact-form_form {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-  text-align: left;
-}
-
-.contact-form_fields-row {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1rem;
-}
-
-.contact-form_field {
-  display: flex;
-  flex-direction: column;
-  gap: 0.75rem;
-  font-family: 'IBM Plex Sans', sans-serif;
-  color: var(--tertiary-color);
-}
-
-.contact-form_field span {
-  font-weight: 600;
-  font-size: 0.95rem;
-}
-
-.contact-form_field em {
-  font-style: normal;
-  font-weight: 400;
-  color: var(--primary-color);
-  font-size: 0.9rem;
-}
-
-.contact-form_field input,
-.contact-form_field textarea {
-  border-radius: 18px;
-  border: 1px solid var(--primary-color);
-  padding: 1.1rem 1.25rem;
-  font-family: 'IBM Plex Sans', sans-serif;
-  font-size: 1rem;
-  color: var(--tertiary-color);
-  background: #fff;
-}
-
-.contact-form_field textarea {
-  min-height: 180px;
-  resize: vertical;
-}
-
-.contact-form_field input:focus,
-.contact-form_field textarea:focus {
-  outline: 2px solid rgba(154, 195, 27, 0.25);
-  border-color: rgba(154, 195, 27, 0.5);
-}
-
-.contact-form_submit {
-  width: 100%;
-  padding: 1.15rem 2rem;
-  border-radius: 100px;
-  font-size: 1.05rem;
-  letter-spacing: 0.03em;
-}
-
-.contact-form-success {
-  background-color: var(--primary-color);
-  color: var(--tertiary-color);
-  padding: 1rem;
-  border-radius: 24px;
-  text-align: center;
-  margin-bottom: 2rem;
-  font-weight: 700;
-}
 
 /* Containers */
 .container-primary {
@@ -454,6 +348,127 @@ p {
   justify-content: center;
   align-items: flex-end;
   border-radius: 25px;
+}
+
+/* Testimonials Section */
+.testimonial-card {
+  background-color:transparent;
+  padding: 2.5rem;
+  border-radius: 24px;
+  border: 2px solid var(--primary-color);
+}
+
+.testimonial-card p {
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: var(--light-color);
+  margin-bottom: 1.5rem;
+}
+
+/* Contact Section */
+.contact{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #f4f4f4; 
+  padding: 6rem 0;
+}
+
+.contact-content {
+  width: 60%;
+}
+
+.contact p{
+  margin-bottom: 2rem;
+}
+
+.button-container {
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
+}
+
+/* Contact Form */
+
+.contact-form-card {
+  width: 60%;
+  background-color: var(--light-color);
+  padding: 2.5rem;
+  border-radius: 24px;
+  border: 2px solid var(--primary-color);
+}
+
+.contact-form_form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  text-align: left;
+}
+
+.contact-form_fields-row {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.contact-form_field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: var(--tertiary-color);
+}
+
+.contact-form_field span {
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.contact-form_field em {
+  font-style: normal;
+  font-weight: 400;
+  color: var(--primary-color);
+  font-size: 0.9rem;
+}
+
+.contact-form_field input,
+.contact-form_field textarea {
+  border-radius: 18px;
+  border: 1px solid var(--primary-color);
+  padding: 1.1rem 1.25rem;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 1rem;
+  color: var(--tertiary-color);
+  background: #fff;
+}
+
+.contact-form_field textarea {
+  min-height: 180px;
+  resize: vertical;
+}
+
+.contact-form_field input:focus,
+.contact-form_field textarea:focus {
+  outline: 2px solid rgba(154, 195, 27, 0.25);
+  border-color: rgba(154, 195, 27, 0.5);
+}
+
+.contact-form_submit {
+  width: 100%;
+  padding: 1.15rem 2rem;
+  border-radius: 100px;
+  font-size: 1.05rem;
+  letter-spacing: 0.03em;
+}
+
+.contact-form-success {
+  background-color: var(--primary-color);
+  color: var(--tertiary-color);
+  padding: 1rem;
+  border-radius: 24px;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-weight: 700;
 }
 
 /* Footer */
