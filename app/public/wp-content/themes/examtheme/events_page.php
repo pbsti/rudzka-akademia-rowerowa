@@ -9,8 +9,6 @@ Template Name: Events and Registration Page
         <?php while (have_posts()): the_post()?>
            <?php
            $eventsimage = get_field('events_image');
-           $newsimg1 = get_field('news_1');
-           $newsimg2 = get_field('news_2');
            $campimg = get_field('camp_image');
            $contactimgevents = get_field('events_contact');               
            ?>
@@ -29,20 +27,7 @@ Template Name: Events and Registration Page
                 </div>
 
             <!-- News Section -->
-            <section id="news" class="news container-secondary">
-                <h2>LATEST NEWS</h2>
-                <div class="container">
-                    <div class="image-container news-image-1" style="background: url(<?php echo esc_url($newsimg1["url"])?>) no-repeat center center/cover;">
-                        <p>Experience In Cycling</p>
-                    </div>
-                    <div class="image-container news-image-2" style="background: url(<?php echo esc_url($newsimg2["url"])?>) no-repeat center center/cover;">
-                        <p>New Training Methods</p>
-                    </div>
-                </div>
-                <div class="button-container">
-                    <a href="about.html" class="btn btn-secondary">SEE MORE</a>
-                </div>
-            </section>
+            <?php get_template_part('template-parts/home'); ?>
 
             <!-- Summer Camps Section -->
                 <section id="summer-camps" class="summer-camps container-primary">

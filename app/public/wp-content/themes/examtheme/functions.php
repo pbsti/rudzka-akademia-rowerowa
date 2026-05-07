@@ -9,6 +9,7 @@ function rar_load_resources(){
 add_action('wp_enqueue_scripts', 'rar_load_resources');
 
 function rar_setup_theme() {
+    add_theme_support('post-thumbnails');
     register_nav_menu('primary', __('Primary Menu', 'examtheme'));
 }
 add_action('after_setup_theme', 'rar_setup_theme');

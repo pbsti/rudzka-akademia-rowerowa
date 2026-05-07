@@ -45,7 +45,7 @@
                 <h2>CO MÓWIĄ NASZE UCZESTNIKÓW</h2>
                 <?php get_template_part('template-parts/index', 'testimonial'); ?>
             </section>
-
+            
             <!-- Contact Section -->
             <section id="contact" class="contact contact-image" style="background: url(<?php echo esc_url($contactimage["url"])?>) no-repeat center center/cover;">
                 <div class="contact-content">
