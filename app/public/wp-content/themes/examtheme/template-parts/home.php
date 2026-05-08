@@ -1,16 +1,19 @@
 <?php
 $news_args = array(
     'post_type' => 'post',
-    'posts_per_page' => 2,
+    'posts_per_page' => -1,
     'post_status' => 'publish',
 );
 $news_query = new WP_Query($news_args);
+$total_posts = $news_query->found_posts;
+$show_all_button = $total_posts > 2;
 ?>
 <section id="news" class="news container-secondary">
     <h2>LATEST NEWS</h2>
     <div class="news-container">
         <?php if ($news_query->have_posts()): ?>
-            <?php while ($news_query->have_posts()): $news_query->the_post(); ?>
+            <?php $post_index = 0; ?>
+            <?php while ($news_query->have_posts()): $news_query->the_post(); $post_index++; ?>
                 <?php
                 $url = get_permalink();
                 $title = get_the_title();
@@ -25,8 +28,10 @@ $news_query = new WP_Query($news_args);
                     }
                 }
                 $image_style = $thumb_url ? "background: url('" . esc_url($thumb_url) . "') no-repeat center center/cover;" : 'background: #222;';
+                $hidden_class = $post_index > 2 ? ' hidden-news' : '';
+                $hidden_style = $post_index > 2 ? ' style="display:none;"' : '';
                 ?>
-                <article class="news-card">
+                <article class="news-card<?php echo $hidden_class; ?>"<?php echo $hidden_style; ?>>
                     <a class="news-card-link" href="<?php echo esc_url($url); ?>">
                         <div class="news-card-image" style="<?php echo esc_attr($image_style); ?>"></div>
                         <div class="news-card-content">
@@ -41,6 +46,28 @@ $news_query = new WP_Query($news_args);
             <p>Brak aktualności do wyświetlenia.</p>
         <?php endif; ?>
     </div>
-    <?php wp_reset_postdata(); ?>
+        <?php if ($show_all_button): ?>
+            <div class="button-container">
+                <button type="button" id="show-more-news" class="btn btn-secondary">SHOW ALL NEWS</button>
+            </div>
+        <?php endif; ?>
+        <?php wp_reset_postdata(); ?>
 </section>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var button = document.getElementById('show-more-news');
+        if (!button) {
+            return;
+        }
+
+        button.addEventListener('click', function() {
+            var hiddenCards = document.querySelectorAll('.news-card.hidden-news');
+            hiddenCards.forEach(function(card) {
+                card.style.display = '';
+            });
+            button.style.display = 'none';
+        });
+    });
+</script>
 
