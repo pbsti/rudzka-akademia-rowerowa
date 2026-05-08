@@ -706,3 +706,4 @@ Stack trace:
 [08-May-2026 14:15:26 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Q\Local Sites\rudzka-akademia-rowerowa\app\public\wp-content\themes\examtheme\index.php on line 37
 [08-May-2026 14:15:26 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Q\Local Sites\rudzka-akademia-rowerowa\app\public\wp-content\themes\examtheme\index.php on line 38
 [08-May-2026 14:15:26 UTC] PHP Warning:  Trying to access array offset on value of type null in C:\Users\Q\Local Sites\rudzka-akademia-rowerowa\app\public\wp-content\themes\examtheme\index.php on line 50
+[08-May-2026 16:59:17 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}

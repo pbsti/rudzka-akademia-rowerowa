@@ -10,7 +10,6 @@ if ( isset( $_POST['contact_name'] ) && isset( $_POST['contact_nonce'] ) && wp_v
     $message = sanitize_textarea_field( $_POST['contact_message'] );
 
     if ( ! empty( $name ) && ! empty( $email ) && is_email( $email ) ) {
-        // Save to database
         $post_id = wp_insert_post( array(
             'post_title'   => $name . ' - ' . $topic,
             'post_content' => $message,
@@ -19,7 +18,6 @@ if ( isset( $_POST['contact_name'] ) && isset( $_POST['contact_nonce'] ) && wp_v
         ) );
 
         if ( $post_id && ! is_wp_error( $post_id ) ) {
-            // Save ACF fields if ACF is active
             if ( function_exists( 'update_field' ) ) {
                 update_field( 'contact_name', $name, $post_id );
                 update_field( 'contact_email', $email, $post_id );
@@ -27,13 +25,11 @@ if ( isset( $_POST['contact_name'] ) && isset( $_POST['contact_nonce'] ) && wp_v
                 update_field( 'contact_message', $message, $post_id );
             }
 
-            // Send email
             $to      = get_option( 'admin_email' );
             $subject = 'New Contact Form Submission: ' . $topic;
             $body    = "Name: $name\nEmail: $email\nTopic: $topic\nMessage: $message";
             wp_mail( $to, $subject, $body );
 
-            // Redirect with success
             wp_redirect( add_query_arg( 'form', 'success', get_permalink() ) );
             exit;
         }
