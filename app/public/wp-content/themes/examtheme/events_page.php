@@ -48,6 +48,10 @@ Template Name: Events and Registration Page
             <!--Calendar Section-->
                 <section id="calendar" class="calendar container-secondary">
                     <h2> EVENT CALENDAR AND REGISTRATION</h2>
+                    <p>View our upcoming events in the calendar below.</p>
+                    <div class="calendar-content">
+                        <?php echo do_shortcode('[simple_calendar id="1"]'); ?>
+                    </div>
                 </section>
 
             <!-- Contact Section -->
