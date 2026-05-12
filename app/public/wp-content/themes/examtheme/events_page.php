@@ -50,7 +50,7 @@ Template Name: Events and Registration Page
                     <h2> EVENT CALENDAR AND REGISTRATION</h2>
                     <p>View our upcoming events in the calendar below.</p>
                     <div class="calendar-content">
-                        <?php echo do_shortcode('[simple_calendar id="130"]'); ?>
+                        <?php echo do_shortcode('[simple_calendar id="132"]'); ?>
                     </div>
                 </section>
 

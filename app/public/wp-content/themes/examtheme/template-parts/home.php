@@ -48,7 +48,7 @@ $show_all_button = $total_posts > 2;
     </div>
         <?php if ($show_all_button): ?>
             <div class="button-container">
-                <button type="button" id="show-more-news" class="btn btn-secondary">SHOW ALL NEWS</button>
+                <button type="button" id="show-more-news" class="btn btn-secondary nb">SHOW ALL NEWS</button>
             </div>
         <?php endif; ?>
         <?php wp_reset_postdata(); ?>

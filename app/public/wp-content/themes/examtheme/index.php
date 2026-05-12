@@ -34,8 +34,8 @@
             <section id="events" class="events container-primary">
                 <h2>Wydarzenia</h2>
                 <div class="container">
-                    <div class="image-container event-image-1 " style="background: url(<?php echo esc_url($eventimagechildren["url"])?>) no-repeat center center/cover;"><p>Dzieci / Młodzież</p></div>
-                    <div class="image-container event-image-2" style="background: url(<?php echo esc_url($eventimageadults["url"])?>) no-repeat center center/cover;"><p>Osoby dorosłe</p></div>
+                    <div class="image-container children " style="background: url(<?php echo esc_url($eventimagechildren["url"])?>) no-repeat center center/cover;"><p>Dzieci / Młodzież</p></div>
+                    <div class="image-container adults" style="background: url(<?php echo esc_url($eventimageadults["url"])?>) no-repeat center center/cover;"><p>Osoby dorosłe</p></div>
                 </div>
                 <a href="events.php" class="btn btn-secondary">Dołącz do nas</a>
             </section>
