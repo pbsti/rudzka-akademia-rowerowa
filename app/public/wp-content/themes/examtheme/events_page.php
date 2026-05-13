@@ -17,10 +17,10 @@ Template Name: Events and Registration Page
                     <div class="split-container">
                         <div class="image-container events-image" style="background: url(<?php echo esc_url($eventsimage["url"])?>) no-repeat center center/cover;"></div>
                         <div class="inner-container">
-                            <h2>OUR EVENTS</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu.</p>
+                            <h2>Wydarzenia</h2>
+                            <p>Sprawdź nasze nadchodzące wydarzenia rowerowe oraz letnie obozy pełne aktywności, nauki i świetnej zabawy. Dołącz do naszej społeczności i spędź czas aktywnie razem z nami. </p>
                             <div class="button-container">
-                                <a href="about.html" class="btn btn-secondary">REGISTER</a>
+                                <a href="<?php echo esc_url(get_permalink(get_page_by_path('events-page')) . '#calendar'); ?>" class="btn btn-secondary">Sprawdź wydarzenia</a>
                             </div>
                         </div>
                     </div>
@@ -31,15 +31,15 @@ Template Name: Events and Registration Page
 
             <!-- Summer Camps Section -->
                 <section id="summer-camps" class="summer-camps container-primary">
-                    <h2>SUMMER CAMPS</h2>
+                    <h2>LETTNIE OBOZY</h2>
                     <div class="container-camps">
                         <div class="inner-container">
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu.</p>
+                            <p>Sprawdź nasze nadchodzące wydarzenia rowerowe oraz letnie obozy pełne aktywności, nauki i świetnej zabawy. Dołącz do naszej społeczności i spędź czas aktywnie razem z nami. </p>
                         <div class="image-container camps-image" style="background: url(<?php echo esc_url($campimg["url"])?>) no-repeat center center/cover;">
-                            <p>Experience In Cycling</p>
+                            <p>Wakacje w standardzie VIP dla Twojego dziecka!</p>
                         </div>
                             <div class="button-container">
-                                <a href="about.html" class="btn btn-secondary">REGISTER</a>
+                                <a href="<?php echo esc_url(get_permalink(get_page_by_path('events-page')) . '#calendar'); ?>" class="btn btn-secondary">Sprawdź obozy</a>
                             </div>
                         </div>
                     </div>
@@ -57,12 +57,12 @@ Template Name: Events and Registration Page
             <!-- Contact Section -->
                 <section id="contact" class="contact" style="background: url(<?php echo esc_url($contactimgevents["url"])?>) no-repeat center center/cover;">
                     <div class="contact-content">
-                    <h2>Still feel unsure of what to pick?</h2>
-                    <p>You are always welcome to contact us and find out together how to begin your cycling journey.</p>
-                    <div class="button-container">
-                        <a href="contact.html" class="btn btn-primary">Zadzwoń do nas</a>
-                        <a href="contact.html" class="btn btn-light">Wyślij wiadomość</a>
-                    </div>
+                        <h2>Nadal nie wiesz, co wybrać?</h2>
+                        <p>Jesteś zawsze zaproszony do kontaktu z nami i odkrycia razem, jak rozpocząć swoją podróż kolarstwa.</p>
+                        <div class="button-container">
+                            <a href="<?php echo esc_url(get_permalink(get_page_by_path('contact-page'))); ?>" class="btn btn-primary">Zadzwoń do nas</a>
+                            <a href="<?php echo esc_url(get_permalink(get_page_by_path('contact-page')) . '#contact-form'); ?>" class="btn btn-light">Wyślij wiadomość</a>
+                        </div>
                     </div>
                 </section>
         <?php endwhile; ?>

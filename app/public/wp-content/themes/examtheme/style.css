@@ -189,6 +189,7 @@ p {
   justify-content: center;
   align-items: center;
   font-family: 'Baloo Chettan 2', cursive;
+  text-transform: uppercase;
   padding: 0.75rem 2rem;
   border: none;
   border-radius: 100px;
@@ -202,6 +203,7 @@ p {
 .btn-secondary {
   display: inline-block;
   font-family: 'Baloo Chettan 2', cursive;
+  text-transform: uppercase;
   padding: 0.75rem 2rem;
   border: none;
   border-radius: 100px;
@@ -215,6 +217,7 @@ p {
 .btn-light {
   display: inline-block;
   font-family: 'Baloo Chettan 2', cursive;
+  text-transform: uppercase;
   padding: 0.75rem 2rem;
   border: solid 3px var(--light-color);
   border-radius: 100px;
@@ -368,7 +371,7 @@ p {
   border-radius: 25px;
 }
 
-/* Events Category Hompage */
+/* Events Category Homepage */
 
 .children, .adults {
   transition: transform 0.25s ease, box-shadow 0.25s ease;
@@ -419,6 +422,12 @@ p {
   display: flex;
   gap: 4rem;
   justify-content: center;
+}
+
+/*Summer Camps Section */
+.camps-image p {
+  font-size: 1.5rem;
+  font-family: 'Baloo Chettan 2', cursive;
 }
 
 /*News Section */
