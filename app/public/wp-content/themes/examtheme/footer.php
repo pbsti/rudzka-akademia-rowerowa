@@ -2,14 +2,14 @@
       <?php $logo_url = get_stylesheet_directory_uri() . '/original/images/logo.png'; ?>
 
         <div class="footer-content">
-          <div class="footer-logo">
-              <img src="<?php echo esc_url($logo_url); ?>" alt="Rudzka Akademia Rowerowa Logo" style="height: 8rem;">
-          </div>
+          <a class="footer-logo" href="<?php echo esc_url(home_url('/')); ?>">
+            <img src="<?php echo esc_url($logo_url); ?>" alt="Rudzka Akademia Rowerowa Logo" style="height: 8rem;">
+          </a>
           <div class="contact-info">
             <h3>Kontakt</h3>
-            <a href="mailto:info@rudzkaakademia.pl">
+            <a href="mailto:biurouksrar@gmail.com">
               <i class="fa-solid fa-envelope" style="font-size: 2rem; color: #1E212B;"></i>
-              <p>info@rudzkaakademia.pl</p>
+              <p>biurouksrar@gmail.com</p>
             </a>
             <a href="tel:+48 602 480 400">
               <i class="fa-solid fa-phone" style="font-size: 2rem; color: #1E212B;"></i>
@@ -29,9 +29,9 @@
           <div class="social-icons">
             <h3>Zaobserwuj nas</h3>
             <div class="footer-icons">
-            <a href="#"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
-            <a href="#"><i class="fa-brands fa-tiktok" aria-hidden="true"></i></a>
-            <a href="#"><i class="fa-brands fa-facebook" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/rudzka_akademia_rowerowa/"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://www.tiktok.com/@rudzkaakademiarow"><i class="fa-brands fa-tiktok" aria-hidden="true"></i></a>
+            <a href="https://www.facebook.com/RudzkaAkademiaRowerowa"><i class="fa-brands fa-facebook" aria-hidden="true"></i></a>
             </div>
           </div>
         </div>

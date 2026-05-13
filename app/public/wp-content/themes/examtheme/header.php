@@ -47,15 +47,15 @@
                 </ul>
             <?php endif; ?>
             <div class="mobile-social mobile-only">
-                <a href="https://instagram.com" class="social-link" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.instagram.com/rudzka_akademia_rowerowa/" class="social-link" target="_blank" rel="noopener noreferrer">
                     <i class="fab fa-instagram" style="font-size: 1.5rem;" aria-hidden="true"></i>
                     <span class="screen-reader-text">Instagram</span>
                 </a>
-                <a href="https://tiktok.com" class="social-link" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.tiktok.com/@rudzkaakademiarow" class="social-link" target="_blank" rel="noopener noreferrer">
                     <i class="fab fa-tiktok" style="font-size: 1.5rem;" aria-hidden="true"></i>
                     <span class="screen-reader-text">TikTok</span>
                 </a>
-                <a href="https://facebook.com" class="social-link" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.facebook.com/RudzkaAkademiaRowerowa" class="social-link" target="_blank" rel="noopener noreferrer">
                     <i class="fab fa-facebook-f" style="font-size: 1.5rem;" aria-hidden="true"></i>
                     <span class="screen-reader-text">Facebook</span>
                 </a>
@@ -63,15 +63,15 @@
         </nav>
 
         <div class="nav-social desktop-only">
-            <a href="https://instagram.com" class="social-link" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/rudzka_akademia_rowerowa/" class="social-link" target="_blank" rel="noopener noreferrer">
                 <i class="fab fa-instagram" style="font-size: 1.5rem;" aria-hidden="true"></i>
                 <span class="screen-reader-text">Instagram</span>
             </a>
-            <a href="https://tiktok.com" class="social-link" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.tiktok.com/@rudzkaakademiarow" class="social-link" target="_blank" rel="noopener noreferrer">
                 <i class="fab fa-tiktok" style="font-size: 1.5rem;" aria-hidden="true"></i>
                 <span class="screen-reader-text">TikTok</span>
             </a>
-            <a href="https://facebook.com" class="social-link" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.facebook.com/RudzkaAkademiaRowerowa" class="social-link" target="_blank" rel="noopener noreferrer">
                 <i class="fab fa-facebook-f" style="font-size: 1.5rem;" aria-hidden="true"></i>
                 <span class="screen-reader-text">Facebook</span>
             </a>

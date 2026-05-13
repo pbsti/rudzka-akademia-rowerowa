@@ -14,7 +14,7 @@
                 <h1>Rudzka Akademia Rowerowa</h1>
                 <p>Dla wszystkich, którzy chcą dobrze się bawić podczas jazdy na rowerze!</p>
                     <div class="button-container">
-                        <a href="about-page.php" class="btn btn-secondary">Dołącz do nas</a>
+                        <a href="<?php echo esc_url(get_permalink(get_page_by_path('events-page'))); ?>" class="btn btn-secondary">Dołącz do nas</a>
                     </div>
                 </div>
             </section>
@@ -27,7 +27,7 @@
                     <div class="inner-container"> <i class="fa-solid fa-user-check" style="font-size: 4rem;"></i> <p> Ponad 10 lat doświadczenia</p></div>
                     <div class="inner-container"> <i class="fa-solid fa-apple-whole" style="font-size: 4rem;"></i> <p>Porady dotyczące odżywiania</p></div>
                 </div>
-                <a href="about-page.php" class="btn btn-secondary">Dowiedz się więcej</a>
+                <a href="<?php echo esc_url(get_permalink(get_page_by_path('about'))); ?>" class="btn btn-secondary">Dowiedz się więcej</a>
             </section>
 
             <!-- Events Section -->
@@ -37,7 +37,7 @@
                     <div class="image-container children " style="background: url(<?php echo esc_url($eventimagechildren["url"])?>) no-repeat center center/cover;"><p>Dzieci / Młodzież</p></div>
                     <div class="image-container adults" style="background: url(<?php echo esc_url($eventimageadults["url"])?>) no-repeat center center/cover;"><p>Osoby dorosłe</p></div>
                 </div>
-                <a href="events.php" class="btn btn-secondary">Dołącz do nas</a>
+                <a href="<?php echo esc_url(get_permalink(get_page_by_path('events-page'))); ?>" class="btn btn-secondary">Dołącz do nas</a>
             </section>
 
             <!-- Testimonials Section -->
@@ -52,8 +52,8 @@
                     <h2>Nadal nie wiesz, co wybrać?</h2>
                     <p>Jesteś zawsze zaproszony do kontaktu z nami i odkrycia razem, jak rozpocząć swoją podróż kolarstwa.</p>
                     <div class="button-container">
-                        <a href="contact.php" class="btn btn-primary">Zadzwoń do nas</a>
-                        <a href="contact.php" class="btn btn-light">Wyślij wiadomość</a>
+                        <a href="<?php echo esc_url(get_permalink(get_page_by_path('contact-page'))); ?>" class="btn btn-primary">Zadzwoń do nas</a>
+                        <a href="<?php echo esc_url(get_permalink(get_page_by_path('contact-page')) . '#contact-form'); ?>" class="btn btn-light">Wyślij wiadomość</a>
                     </div>
                 </div>
             </section>

@@ -27,21 +27,21 @@ Template Name: About Page
             <section id="mission" class="container-primary">
                 <h2> Nasza misja </h2>
                 <div class="container">
-                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu.</p>
+                    <p>Jednym z głównych celów naszego klubu jest aktywizowanie dzieci, młodzieży, jak również dorosłych poprzez jazdę na rowerze oraz turystykę rowerową i pieszą. Zachęcenie wszystkich do zmiany trybu życia, działań prozdrowotnych.</p>
                 </div>
                 <div class="container">
-                    <div class="inner-container facts"><i class="fa-solid fa-medal" style="font-size: 4rem;"></i><p class="bold">EXPERIENCE</p></div>
-                    <div class="inner-container facts"><i class="fa-solid fa-clock" style="font-size: 4rem;"></i><p class="bold">TIME</p></div>
-                    <div class="inner-container facts"><i class="fa-solid fa-star" style="font-size: 4rem;"></i><p class="bold">SATISFACTION</p></div>
+                    <div class="inner-container facts"><i class="fa-solid fa-medal" style="font-size: 4rem;"></i><p class="bold">DOŚWIADCZENIE</p></div>
+                    <div class="inner-container facts"><i class="fa-solid fa-clock" style="font-size: 4rem;"></i><p class="bold">CZAS</p></div>
+                    <div class="inner-container facts"><i class="fa-solid fa-star" style="font-size: 4rem;"></i><p class="bold">SATYSFAKCJA</p></div>
                 </div>
             </section>
 
             <div class="container-secondary">
                 <div class="split-container">
                     <div class="inner-container">
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu.</p>
+                        <p>Jazda na rowerze to świetny sposób na aktywność, zdrowie i dobrą zabawę na świeżym powietrzu. A wszystko staje się jeszcze lepsze, gdy możemy dzielić te chwile razem podczas naszych zajęć i wydarzeń rowerowych.</p>
                         <div class="button-container">
-                            <a href="events.html" class="btn btn-secondary">ZŁÓŻ WNIOSEK TERAZ</a>
+                            <a href="<?php echo esc_url(get_permalink(get_page_by_path('events-page'))); ?>" class="btn btn-secondary">ZŁÓŻ WNIOSEK TERAZ</a>
                         </div>
                     </div>
                     <div class="image-container about-image " style="background: url(<?php echo esc_url($aboutimg["url"])?>) no-repeat center center/cover;"></div>
@@ -63,8 +63,8 @@ Template Name: About Page
                 <h2>Nadal nie wiesz, co wybrać?</h2>
                 <p>Jesteś zawsze zaproszony do kontaktu z nami i wspólnego odkrywania, jak rozpocząć swoją podróż rowerową.</p>
                 <div class="button-container">
-                    <a href="contact.html" class="btn btn-primary">Zadzwoń do nas</a>
-                    <a href="contact.html" class="btn btn-light">Wyślij wiadomość</a>
+                    <a href="<?php echo esc_url(get_permalink(get_page_by_path('contact-page'))); ?>" class="btn btn-primary">Zadzwoń do nas</a>
+                    <a href="<?php echo esc_url(get_permalink(get_page_by_path('contact-page')) . '#contact-form'); ?>" class="btn btn-light">Wyślij wiadomość</a>
                 </div>
                 </div>
             </section>
