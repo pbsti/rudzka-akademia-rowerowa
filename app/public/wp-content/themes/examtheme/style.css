@@ -228,9 +228,11 @@ p {
   align-items: center;
 }
 
-.btn-primary:hover,
+.btn-primary:hover{
+  color: var(--light-color);
+}
 .btn-secondary:hover{
-  box-shadow:0 8px 16px 0 var(--tertiary-color);
+  color: var(--tertiary-color);
 }
 
 .nb:hover{
@@ -345,13 +347,12 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: flex-start;
   border-radius: 25px;
   padding: 2rem 2rem;
 }
 
-.faq-box p{
-  text-align: left;
+.faq-box p, .faq-box h3 {
+  text-align: center;
 }
 
 .container-camps{
@@ -424,11 +425,32 @@ p {
   justify-content: center;
 }
 
+/* About Us Section Team */
+.team_member1, .team_member2 {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.team_member1:hover, .team_member2:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 40px var(--dark-color);
+}
+
+
 /*Summer Camps Section */
 .camps-image p {
   font-size: 1.5rem;
   font-family: 'Baloo Chettan 2', cursive;
 }
+
+/*Summer Camp Page */
+.camps h3{
+  margin: 0;
+  font-weight: 400;
+}
+.camps p{
+  width: 60%;
+}
+
 
 /*News Section */
 
@@ -485,7 +507,6 @@ p {
 .news-card h3 {
   color: var(--light-color);
   margin: 0;
-  font-size: 1.45rem;
 }
 
 .news-card-content p {
@@ -524,6 +545,42 @@ p {
 .single-post-content li {
   font-family: 'IBM Plex Sans', sans-serif;
 }
+
+/* Calendar Section*/
+.simcal-calendar{
+  border-radius: 25px;
+  margin: auto 3rem;
+}
+
+.simcal-calendar-grid {
+  background: var(--light-color);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.simcal-day {
+  background: var(--light-color);
+}
+
+.simcal-calendar-head {
+  background: var(--light-color);
+}
+
+.simcal-calendar,
+.simcal-calendar * {
+  color:var(--tertiary-color);
+}
+
+.simcal-event{
+  border-radius: 6px;
+}
+
+.simcal-event-title {
+  font-family:'Baloo Chettan 2', cursive;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
 
 /* Contact Page and Form */
 
@@ -678,7 +735,7 @@ p {
 }
 
 /* Responsive Design */
-@media (max-width: 768px) {
+@media (max-width: 820px) {
   .container {
     flex-direction: column;
     align-items: center;

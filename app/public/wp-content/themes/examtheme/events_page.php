@@ -40,6 +40,7 @@ Template Name: Events and Registration Page
                         </div>
                             <div class="button-container">
                                 <a href="<?php echo esc_url(get_permalink(get_page_by_path('events-page')) . '#calendar'); ?>" class="btn btn-secondary">Zobacz kalendarz</a>
+                                <a href="<?php echo esc_url(get_permalink(get_page_by_path('summer-camp'))); ?>" class="btn btn-primary">Zobacz obóz letni</a>
                             </div>
                         </div>
                     </div>

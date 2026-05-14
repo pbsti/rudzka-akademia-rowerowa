@@ -24,6 +24,7 @@
             <h3>Szybkie linki</h3>
             <p><a href="<?php echo esc_url(get_permalink(get_page_by_path('frontpage'))); ?>">Strona główna</a></p>
             <p><a href="<?php echo esc_url(get_permalink(get_page_by_path('about'))); ?>">O nas</a></p>
+            <p><a href="<?php echo esc_url(get_permalink(get_page_by_path('events-page'))); ?>">Wydarzenia</a></p>
             <p><a href="<?php echo esc_url(get_permalink(get_page_by_path('contact-page'))); ?>">Kontakt</a></p>
           </div>
           <div class="social-icons">

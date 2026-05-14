@@ -52,8 +52,8 @@ Template Name: About Page
             <section id="team" class="team container-primary">
                 <h2>NASZ ZESPÓŁ</h2>
                 <div class="container">
-                <div class="image-container team-image-1" style="background: url(<?php echo esc_url($teamimg1["url"])?>) no-repeat center center/cover;"><p>John Doe</p></div>
-                <div class="image-container team-image-2" style="background: url(<?php echo esc_url($teamimg2["url"])?>) no-repeat center center/cover;"><p>Jane Smith</p></div>
+                <div class="image-container team_member1" style="background: url(<?php echo esc_url($teamimg1["url"])?>) no-repeat center center/cover;"><p>Pan Bartek</p></div>
+                <div class="image-container team_member2" style="background: url(<?php echo esc_url($teamimg2["url"])?>) no-repeat center center/cover;"><p>Pan Marcin</p></div>
                 </div>
             </section>
 
