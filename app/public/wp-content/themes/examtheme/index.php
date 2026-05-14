@@ -25,7 +25,7 @@
                 <div class="container">
                     <div class="inner-container"> <i class="fa-solid fa-bicycle" style="font-size: 4rem;"></i> <p>Kolarstwo dla każdego</p></div>
                     <div class="inner-container"> <i class="fa-solid fa-user-check" style="font-size: 4rem;"></i> <p> Ponad 10 lat doświadczenia</p></div>
-                    <div class="inner-container"> <i class="fa-solid fa-apple-whole" style="font-size: 4rem;"></i> <p>Porady dotyczące odżywiania</p></div>
+                    <div class="inner-container"> <i class="fa-solid fa-apple-whole" style="font-size: 4rem;"></i> <p>Niezapomniane wyjazdy i obozy</p></div>
                 </div>
                 <a href="<?php echo esc_url(get_permalink(get_page_by_path('about'))); ?>" class="btn btn-secondary">Dowiedz się więcej</a>
             </section>
@@ -42,15 +42,15 @@
 
             <!-- Testimonials Section -->
             <section id="testimonials" class="testimonials container-secondary">
-                <h2>CO MÓWIĄ NASZE UCZESTNIKÓW</h2>
+                <h2>CO MÓWIĄ NASI UCZESTNICY</h2>
                 <?php get_template_part('template-parts/index', 'testimonial'); ?>
             </section>
             
             <!-- Contact Section -->
             <section id="contact" class="contact contact-image" style="background: url(<?php echo esc_url($contactimage["url"])?>) no-repeat center center/cover;">
                 <div class="contact-content">
-                    <h2>Nadal nie wiesz, co wybrać?</h2>
-                    <p>Jesteś zawsze zaproszony do kontaktu z nami i odkrycia razem, jak rozpocząć swoją podróż kolarstwa.</p>
+                    <h2>“NADAL MASZ WĄTPLIWOŚCI?”</h2>
+                    <p>Skontaktuj się z nami, jeśli masz pytania.</p>
                     <div class="button-container">
                         <a href="<?php echo esc_url(get_permalink(get_page_by_path('contact-page'))); ?>" class="btn btn-primary">Zadzwoń do nas</a>
                         <a href="<?php echo esc_url(get_permalink(get_page_by_path('contact-page')) . '#contact-form'); ?>" class="btn btn-light">Wyślij wiadomość</a>

@@ -17,10 +17,10 @@ Template Name: Events and Registration Page
                     <div class="split-container">
                         <div class="image-container events-image" style="background: url(<?php echo esc_url($eventsimage["url"])?>) no-repeat center center/cover;"></div>
                         <div class="inner-container">
-                            <h2>Wydarzenia</h2>
-                            <p>Sprawdź nasze nadchodzące wydarzenia rowerowe oraz letnie obozy pełne aktywności, nauki i świetnej zabawy. Dołącz do naszej społeczności i spędź czas aktywnie razem z nami. </p>
+                            <h2>AKTYWNIE RAZEM</h2>
+                            <p>Sprawdź nasze nadchodzące wyjazdy rowerowe oraz letnie obozy pełne aktywności, nauki i świetnej zabawy. Dołącz do naszej społeczności i spędź czas aktywnie razem z nami. </p>
                             <div class="button-container">
-                                <a href="<?php echo esc_url(get_permalink(get_page_by_path('events-page')) . '#calendar'); ?>" class="btn btn-secondary">Sprawdź wydarzenia</a>
+                                <a href="<?php echo esc_url(get_permalink(get_page_by_path('events-page')) . '#calendar'); ?>" class="btn btn-secondary">ZOBACZ KALENDARZ</a>
                             </div>
                         </div>
                     </div>
@@ -34,12 +34,12 @@ Template Name: Events and Registration Page
                     <h2>LETTNIE OBOZY</h2>
                     <div class="container-camps">
                         <div class="inner-container">
-                            <p>Sprawdź nasze nadchodzące wydarzenia rowerowe oraz letnie obozy pełne aktywności, nauki i świetnej zabawy. Dołącz do naszej społeczności i spędź czas aktywnie razem z nami. </p>
+                            <p>Sprawdź nasze nadchodzące wyjazdy rowerowe oraz letnie obozy pełne aktywności, nauki i świetnej zabawy. Dołącz do naszej społeczności i spędź czas aktywnie razem z nami. </p>
                         <div class="image-container camps-image" style="background: url(<?php echo esc_url($campimg["url"])?>) no-repeat center center/cover;">
                             <p>Wakacje w standardzie VIP dla Twojego dziecka!</p>
                         </div>
                             <div class="button-container">
-                                <a href="<?php echo esc_url(get_permalink(get_page_by_path('events-page')) . '#calendar'); ?>" class="btn btn-secondary">Sprawdź obozy</a>
+                                <a href="<?php echo esc_url(get_permalink(get_page_by_path('events-page')) . '#calendar'); ?>" class="btn btn-secondary">Zobacz kalendarz</a>
                             </div>
                         </div>
                     </div>
@@ -47,8 +47,8 @@ Template Name: Events and Registration Page
 
             <!--Calendar Section-->
                 <section id="calendar" class="calendar container-secondary">
-                    <h2> EVENT CALENDAR AND REGISTRATION</h2>
-                    <p>View our upcoming events in the calendar below.</p>
+                    <h2>Kalendarz i rejestracja</h2>
+                    <p>Zobacz nasze nadchodzące wyjazdy w poniższym kalendarzu.</p>
                     <div class="calendar-content">
                         <?php echo do_shortcode('[simple_calendar id="132"]'); ?>
                     </div>

@@ -19,7 +19,7 @@ Template Name: About Page
     
             <section id="hero-about" class="hero hero-about " style="background: url(<?php echo esc_url($aboutheroimg["url"])?>) no-repeat center center/cover;">
                 <div class="hero-content">
-                    <h1>POZNAJ ZESPÓŁ</h1>
+                    <h1>POZNAJ NASZ ZESPÓŁ</h1>
                 </div>
             </section>
 
@@ -27,7 +27,7 @@ Template Name: About Page
             <section id="mission" class="container-primary">
                 <h2> Nasza misja </h2>
                 <div class="container">
-                    <p>Jednym z głównych celów naszego klubu jest aktywizowanie dzieci, młodzieży, jak również dorosłych poprzez jazdę na rowerze oraz turystykę rowerową i pieszą. Zachęcenie wszystkich do zmiany trybu życia, działań prozdrowotnych.</p>
+                    <p>Jednym z głównych celów naszej organizacji jest aktywizowanie dzieci, młodzieży, jak również dorosłych poprzez jazdę na rowerze oraz turystykę rowerową i pieszą. Zachęcenie wszystkich do zmiany trybu życia, działań prozdrowotnych.</p>
                 </div>
                 <div class="container">
                     <div class="inner-container facts"><i class="fa-solid fa-medal" style="font-size: 4rem;"></i><p class="bold">DOŚWIADCZENIE</p></div>
@@ -41,7 +41,7 @@ Template Name: About Page
                     <div class="inner-container">
                         <p>Jazda na rowerze to świetny sposób na aktywność, zdrowie i dobrą zabawę na świeżym powietrzu. A wszystko staje się jeszcze lepsze, gdy możemy dzielić te chwile razem podczas naszych zajęć i wydarzeń rowerowych.</p>
                         <div class="button-container">
-                            <a href="<?php echo esc_url(get_permalink(get_page_by_path('events-page'))); ?>" class="btn btn-secondary">ZŁÓŻ WNIOSEK TERAZ</a>
+                            <a href="<?php echo esc_url(get_permalink(get_page_by_path('events-page'))); ?>" class="btn btn-secondary">Zobacz wydarzenia</a>
                         </div>
                     </div>
                     <div class="image-container about-image " style="background: url(<?php echo esc_url($aboutimg["url"])?>) no-repeat center center/cover;"></div>

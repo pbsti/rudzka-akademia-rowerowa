@@ -9,7 +9,7 @@ $total_posts = $news_query->found_posts;
 $show_all_button = $total_posts > 2;
 ?>
 <section id="news" class="news container-secondary">
-    <h2>NAJNOWSZE WIADOMOŚCI</h2>
+    <h2>Aktualności</h2>
     <div class="news-container">
         <?php if ($news_query->have_posts()): ?>
             <?php $post_index = 0; ?>
@@ -48,7 +48,7 @@ $show_all_button = $total_posts > 2;
     </div>
         <?php if ($show_all_button): ?>
             <div class="button-container">
-                <button type="button" id="show-more-news" class="btn btn-secondary nb">POKAŻ WSZYSTKIE WIADOMOŚCI</button>
+                <button type="button" id="show-more-news" class="btn btn-secondary nb">Więcej</button>
             </div>
         <?php endif; ?>
         <?php wp_reset_postdata(); ?>
