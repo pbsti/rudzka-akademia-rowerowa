@@ -28,22 +28,36 @@ Template Name: Summer Camp Page
 
             <!-- Schedule Section -->
             <section id="schedule" class="container-primary">
-                <h2>HARMONOGRAM OBOZU</h2>
-                <div class="container">
+                <h2>Informacje i harmonogram</h2>
+                <div class="container schedule-container">
                     <div class="inner-container schedule">
+                        <h3>Co wyróżnia standard VIP?</h3>
+                        <p>Nie jesteśmy masową kolonią. Stawiamy na jakość i relacje:</p>
+                        <ul>
+                            <li><b>Kameralne grupy:</b> Tylko 16 uczestników na turnusie.</li>
+                            <li><b>Bezpieczeństwo przede wszystkim:</b> Gwarantujemy opiekę 1 instruktora na zaledwie 4 uczestników!</li>
+                            <li><b>Komfort:</b> Podróżujemy nowoczesnymi, 9-osobowymi busami.</li>
+                            <li><b>Baza wypadowa:</b> Mieszkamy w urokliwej Willi Przekop w Sromowcach Wyżnych, tuż przy najpiękniejszych trasach rowerowych Polski.</li>
+                        </ul>
+                    </div>
+                   <div class="inner-container schedule">
                         <h3>Program naszpikowany atrakcjami</h3>
                         <p>Nasze trasy dobieramy tak, by cieszyły oko i rozwijały umiejętności (wymagana bardzo dobra umiejętność jazdy):</p>
                         <ul>
-                            <li>Velo Czorsztyn & Velo Dunajec: najpiękniejsze ścieżki rowerowe w tej części Europy.</li>
-                            <li>Warsztaty techniczne: nauczymy Twoje dziecko, jak zadbać o własny sprzęt.</li>
-                            <li>Zakopane: regeneracja i zwiedzanie stolicy Tatr.</li>
-                            <li>Pontonowy Spływ Dunajcem: potężna dawka adrenaliny w bezpiecznym wydaniu.</li>
-                            <li> Integracja offline: Ogniska, gry terenowe i wielka niespodzianka dla każdego uczestnika!</li>
+                            <li><b>Velo Czorsztyn & Velo Dunajec:</b> najpiękniejsze ścieżki rowerowe w tej części Europy.</li>
+                            <li><b>Warsztaty techniczne:</b> nauczymy Twoje dziecko, jak zadbać o własny sprzęt.</li>
+                            <li><b>Zakopane:</b> regeneracja i zwiedzanie stolicy Tatr.</li>
+                            <li><b>Pontonowy Spływ Dunajcem:</b> potężna dawka adrenaliny w bezpiecznym wydaniu.</li>
+                            <li><b> Integracja offline:</b> Ogniska, gry terenowe i wielka niespodzianka dla każdego uczestnika!</li>
                         </ul>
                     </div>
                     <div class="inner-container schedule">
-                        <h3>Dlaczego warto wybrać nasz obóz?</h3>
-                        <p>Bo to nie jest zwykły obóz rowerowy. To jest obóz, który zmienia życie! Twoje dziecko nie tylko nauczy się jeździć lepiej, ale przede wszystkim pozna nowych przyjaciół, odkryje pasję do sportu i spędzi niezapomniane chwile w otoczeniu natury.</p>
+                        <h3>Wybierz swój termin:</h3>
+                        <ul>
+                            <li><b>Turnus 1:</b> 29.06.2026 do 05.07.2026 (Zostało tylko 9 miejsc!)</li>
+                            <li><b>Turnus 2:</b> 20.07.2026 do 26.07.2026 (Zostało tylko 7 miejsc!)</li>
+                        </ul>
+                        <p><b>Inwestycja w pasję Twojego dziecka:</b> 2 599 zł</p>
                     </div>
                 </div>
             </section>
@@ -62,5 +76,5 @@ Template Name: Summer Camp Page
 
         <?php endwhile; ?>
     <?php endif; ?>
-    
+
 <?php get_footer(); ?>
