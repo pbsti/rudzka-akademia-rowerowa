@@ -52,8 +52,17 @@ Template Name: About Page
             <section id="team" class="team container-primary">
                 <h2>NASZ ZESPÓŁ</h2>
                 <div class="container">
-                <div class="image-container team_member1" style="background: url(<?php echo esc_url($teamimg1["url"])?>) no-repeat center center/cover;"><p>Pan Bartek</p></div>
-                <div class="image-container team_member2" style="background: url(<?php echo esc_url($teamimg2["url"])?>) no-repeat center center/cover;"><p>Pan Marcin</p></div>
+                    <div class="image-container team-card1">
+                        <div class= "team-card-inner t1">
+                            <div class="t1_front" style="background: url(<?php echo esc_url($teamimg1["url"])?>) no-repeat center center/cover;"></div>
+                            <div class= "t1_back">
+                                <h3> Pan Bartek</h3>
+                                <p>Założyciel i główny instruktor RAR. Pasjonat rowerów, który od lat dzieli się swoją wiedzą i doświadczeniem z młodymi rowerzystami.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="image-container t2_front" style="background: url(<?php echo esc_url($teamimg2["url"])?>) no-repeat center center/cover;"><p>Pan Marcin</p></div>
                 </div>
             </section>
 
