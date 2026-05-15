@@ -25,7 +25,7 @@
                 <div class="container">
                     <div class="inner-container"> <i class="fa-solid fa-bicycle" style="font-size: 4rem;"></i> <p>Kolarstwo dla każdego</p></div>
                     <div class="inner-container"> <i class="fa-solid fa-user-check" style="font-size: 4rem;"></i> <p> Ponad 10 lat doświadczenia</p></div>
-                    <div class="inner-container"> <i class="fa-solid fa-apple-whole" style="font-size: 4rem;"></i> <p>Niezapomniane wyjazdy i obozy</p></div>
+                    <div class="inner-container"> <i class="fa-solid fa-campground" style="font-size: 4rem;"></i> <p>Niezapomniane wyjazdy i obozy</p></div>
                 </div>
                 <a href="<?php echo esc_url(get_permalink(get_page_by_path('about'))); ?>" class="btn btn-secondary">Dowiedz się więcej</a>
             </section>
@@ -34,8 +34,12 @@
             <section id="events" class="events container-primary">
                 <h2>Wydarzenia</h2>
                 <div class="container">
-                    <div class="image-container children " style="background: url(<?php echo esc_url($eventimagechildren["url"])?>) no-repeat center center/cover;"><p>Dzieci / Młodzież</p></div>
-                    <div class="image-container adults" style="background: url(<?php echo esc_url($eventimageadults["url"])?>) no-repeat center center/cover;"><p>Osoby dorosłe</p></div>
+                    <a href="<?php echo esc_url(get_permalink(get_page_by_path('events-page'))); ?>">
+                        <div class="image-container children " style="background: url(<?php echo esc_url($eventimagechildren["url"])?>) no-repeat center center/cover;"><p>Dzieci / Młodzież</p></div>
+                    </a>
+                    <a href="<?php echo esc_url(get_permalink(get_page_by_path('events-page'))); ?>">
+                        <div class="image-container adults" style="background: url(<?php echo esc_url($eventimageadults["url"])?>) no-repeat center center/cover;"><p>Osoby dorosłe</p></div>
+                    </a>
                 </div>
                 <a href="<?php echo esc_url(get_permalink(get_page_by_path('events-page'))); ?>" class="btn btn-secondary">Dołącz do nas</a>
             </section>

@@ -374,6 +374,10 @@ p {
 
 /* Events Category Homepage */
 
+.container a{
+  width: 100%;
+}
+
 .children, .adults {
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
