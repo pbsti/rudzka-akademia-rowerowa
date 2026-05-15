@@ -425,7 +425,11 @@ p {
   justify-content: center;
 }
 
-/* About Us Section Team */
+/* About Us Page */
+
+.about-events p{
+  padding: 0 3rem;
+}
 .team_member1, .team_member2 {
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
@@ -436,6 +440,11 @@ p {
 }
 
 
+/* Events Page */
+
+.events-intro p{
+  padding: 0 3rem;
+}
 /*Summer Camps Section */
 .camps-image p {
   font-size: 1.5rem;
@@ -581,6 +590,20 @@ p {
   font-size: 0.95rem;
 }
 
+.calendar-content p {
+  margin: 3rem 0 0 0;
+  font-family: 'Baloo Chettan 2', cursive;
+
+}
+
+.calendar-content p a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.calendar-content p a:hover {
+  text-decoration: underline;
+}
 
 /* Contact Page and Form */
 
@@ -681,8 +704,7 @@ p {
   display: flex;
   justify-content:space-between;
   text-align: center;
-  padding: 2rem 2rem;
-  margin-right: 2rem;
+  padding: 2rem 4rem 2rem 2rem;
 }
 
 .contact-info a{

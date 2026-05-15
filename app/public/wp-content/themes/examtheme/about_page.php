@@ -38,7 +38,7 @@ Template Name: About Page
 
             <div class="container-secondary">
                 <div class="split-container">
-                    <div class="inner-container">
+                    <div class="inner-container about-events">
                         <p>Jazda na rowerze to świetny sposób na aktywność, zdrowie i dobrą zabawę na świeżym powietrzu. A wszystko staje się jeszcze lepsze, gdy możemy dzielić te chwile razem podczas naszych zajęć i wydarzeń rowerowych.</p>
                         <div class="button-container">
                             <a href="<?php echo esc_url(get_permalink(get_page_by_path('events-page'))); ?>" class="btn btn-secondary">Zobacz wydarzenia</a>
@@ -60,8 +60,8 @@ Template Name: About Page
             <!-- Contact Section -->
             <section id="contact" class="contact" style="background: url(<?php echo esc_url($aboutcontactimg["url"])?>) no-repeat center center/cover;">
                 <div class="contact-content">
-                <h2>Nadal nie wiesz, co wybrać?</h2>
-                <p>Jesteś zawsze zaproszony do kontaktu z nami i wspólnego odkrywania, jak rozpocząć swoją podróż rowerową.</p>
+                    <h2>“NADAL MASZ WĄTPLIWOŚCI?”</h2>
+                    <p>Skontaktuj się z nami, jeśli masz pytania.</p>
                 <div class="button-container">
                     <a href="<?php echo esc_url(get_permalink(get_page_by_path('contact-page'))); ?>" class="btn btn-primary">Zadzwoń do nas</a>
                     <a href="<?php echo esc_url(get_permalink(get_page_by_path('contact-page')) . '#contact-form'); ?>" class="btn btn-light">Wyślij wiadomość</a>

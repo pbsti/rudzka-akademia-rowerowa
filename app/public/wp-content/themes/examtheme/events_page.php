@@ -16,7 +16,7 @@ Template Name: Events and Registration Page
         <div class="container-primary">
                     <div class="split-container">
                         <div class="image-container events-image" style="background: url(<?php echo esc_url($eventsimage["url"])?>) no-repeat center center/cover;"></div>
-                        <div class="inner-container">
+                        <div class="inner-container events-intro">
                             <h2>AKTYWNIE RAZEM</h2>
                             <p>Sprawdź nasze nadchodzące wyjazdy rowerowe oraz letnie obozy pełne aktywności, nauki i świetnej zabawy. Dołącz do naszej społeczności i spędź czas aktywnie razem z nami. </p>
                             <div class="button-container">
@@ -48,18 +48,20 @@ Template Name: Events and Registration Page
 
             <!--Calendar Section-->
                 <section id="calendar" class="calendar container-secondary">
-                    <h2>Kalendarz i rejestracja</h2>
+                    <h2>Kalendarz</h2>
                     <p>Zobacz nasze nadchodzące wyjazdy w poniższym kalendarzu.</p>
                     <div class="calendar-content">
                         <?php echo do_shortcode('[simple_calendar id="132"]'); ?>
+                        <p>Aby zapisać się na obóz letni lub zajęcia, prosimy o przesłanie maila na adres <a href="mailto:biurouksrar@gmail.com">biurouksrar@gmail.com</a></p>
                     </div>
+                    
                 </section>
 
             <!-- Contact Section -->
                 <section id="contact" class="contact" style="background: url(<?php echo esc_url($contactimgevents["url"])?>) no-repeat center center/cover;">
                     <div class="contact-content">
-                        <h2>Nadal nie wiesz, co wybrać?</h2>
-                        <p>Jesteś zawsze zaproszony do kontaktu z nami i odkrycia razem, jak rozpocząć swoją podróż kolarstwa.</p>
+                        <h2>“NADAL MASZ WĄTPLIWOŚCI?”</h2>
+                        <p>Skontaktuj się z nami, jeśli masz pytania.</p>
                         <div class="button-container">
                             <a href="<?php echo esc_url(get_permalink(get_page_by_path('contact-page'))); ?>" class="btn btn-primary">Zadzwoń do nas</a>
                             <a href="<?php echo esc_url(get_permalink(get_page_by_path('contact-page')) . '#contact-form'); ?>" class="btn btn-light">Wyślij wiadomość</a>
