@@ -47,12 +47,12 @@ Template Name: Events and Registration Page
                 </section>
 
             <!--Calendar Section-->
-                <section id="calendar" class="calendar container-secondary">
+                <section id="calendar" class="calendar container-secondary calendar-section">
                     <h2>Kalendarz</h2>
                     <p>Zobacz nasze nadchodzące wyjazdy w poniższym kalendarzu.</p>
+                    <p>Aby zapisać się na obóz letni lub zajęcia, prosimy o przesłanie maila na adres <a href="mailto:biurouksrar@gmail.com">biurouksrar@gmail.com</a></p>
                     <div class="calendar-content">
                         <?php echo do_shortcode('[simple_calendar id="132"]'); ?>
-                        <p>Aby zapisać się na obóz letni lub zajęcia, prosimy o przesłanie maila na adres <a href="mailto:biurouksrar@gmail.com">biurouksrar@gmail.com</a></p>
                     </div>
                     
                 </section>
