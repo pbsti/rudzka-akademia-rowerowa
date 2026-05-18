@@ -11,8 +11,8 @@ $loop = new WP_Query($arguments);
     <?php if($loop->have_posts()): ?>
             <?php while ($loop->have_posts()): $loop->the_post()?>
             <?php
-            $testimonialtext = get_field('testimonial_text');
-            $testimonialname = get_field('testimonial_name');
+            $testimonialtext = get_field('testimonial_text') ?: '';
+            $testimonialname = get_field('testimonial_name') ?: '';
                 ?>
                 <div class="testimonial-card">
                     <p>"<?php echo esc_html($testimonialtext); ?>"</p>

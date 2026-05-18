@@ -40,8 +40,8 @@ get_header(); ?>
     <?php if(have_posts()): ?>
         <?php while (have_posts()): the_post()?>
               <?php
-              $Phonecontact = get_field('phone_contact');
-              $EmailContact = get_field('email_contact');
+              $Phonecontact = get_field('phone_contact') ?: '';
+              $EmailContact = get_field('email_contact') ?: '';
               ?>
            
             <section id="contact-us" class="contact-us container-secondary">
@@ -50,11 +50,11 @@ get_header(); ?>
                 <div class="container">
                     <div class="inner-container contact-icon">
                         <i class="fa-solid fa-phone" style="font-size: 3rem;"></i>
-                        <a href="tel:+48 602 480 400"><p><?php echo $Phonecontact; ?></p></a>
+                        <a href="tel:+48 602 480 400"><p><?php echo esc_html( $Phonecontact ); ?></p></a>
                     </div>
                     <div class="inner-container contact-icon">
                         <i class="fa-solid fa-envelope" style="font-size: 3rem;"></i>
-                        <a href="mailto:biurouksrar@gmail.com"><p><?php echo $EmailContact; ?></p></a>
+                        <a href="mailto:biurouksrar@gmail.com"><p><?php echo esc_html( $EmailContact ); ?></p></a>
                     </div>
                 </div>
             </section>
@@ -62,7 +62,7 @@ get_header(); ?>
             <!-- Contact Form Section -->
             <section id="contact-form" class="contact-form container-primary">
                 <h2>Wyślij do nas wiadomość</h2>
-                <?php if ( isset( $_GET['form'] ) && $_GET['form'] == 'success' ) : ?>
+                <?php if ( isset( $_GET['form'] ) && 'success' === sanitize_text_field( wp_unslash( $_GET['form'] ) ) ) : ?>
                     <div class="contact-form-success">
                         <p>Dziękujemy za wiadomość! Skontaktujemy się wkrótce.</p>
                     </div>

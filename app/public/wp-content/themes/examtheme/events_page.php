@@ -15,7 +15,7 @@ Template Name: Events and Registration Page
 
         <div class="container-primary">
                     <div class="split-container">
-                        <div class="image-container events-image" style="background: url(<?php echo esc_url($eventsimage["url"])?>) no-repeat center center/cover;"></div>
+                        <div class="image-container events-image" style="background: url(<?php echo esc_url( $eventsimage['url'] ?? '' ); ?>) no-repeat center center/cover;"></div>
                         <div class="inner-container events-intro">
                             <h2>AKTYWNIE RAZEM</h2>
                             <p>Sprawdź nasze nadchodzące wyjazdy rowerowe oraz letnie obozy pełne aktywności, nauki i świetnej zabawy. Dołącz do naszej społeczności i spędź czas aktywnie razem z nami. </p>
@@ -35,7 +35,7 @@ Template Name: Events and Registration Page
                     <div class="container-camps">
                         <div class="inner-container">
                             <p>Sprawdź nasze nadchodzące wyjazdy rowerowe oraz letnie obozy pełne aktywności, nauki i świetnej zabawy. Dołącz do naszej społeczności i spędź czas aktywnie razem z nami. </p>
-                        <div class="image-container camps-image" style="background: url(<?php echo esc_url($campimg["url"])?>) no-repeat center center/cover;">
+                        <div class="image-container camps-image" style="background: url(<?php echo esc_url( $campimg['url'] ?? '' ); ?>) no-repeat center center/cover;">
                             <p>Wakacje w standardzie VIP dla Twojego dziecka!</p>
                         </div>
                             <div class="button-container">
@@ -58,7 +58,7 @@ Template Name: Events and Registration Page
                 </section>
 
             <!-- Contact Section -->
-                <section id="contact" class="contact" style="background: url(<?php echo esc_url($contactimgevents["url"])?>) no-repeat center center/cover;">
+                <section id="contact" class="contact" style="background: url(<?php echo esc_url( $contactimgevents['url'] ?? '' ); ?>) no-repeat center center/cover;">
                     <div class="contact-content">
                         <h2>“NADAL MASZ WĄTPLIWOŚCI?”</h2>
                         <p>Skontaktuj się z nami, jeśli masz pytania.</p>

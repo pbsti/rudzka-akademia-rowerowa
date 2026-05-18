@@ -6,7 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
-    <title><?php bloginfo('name')?> </title>
+    <title><?php echo esc_html( get_bloginfo( 'name' ) ); ?></title>
     <?php wp_head()?>
 </head>
 
@@ -16,7 +16,7 @@
 <header class="nav-header">
     <div class="nav-inner">
         <a class="nav-branding desktop-only" href="<?php echo esc_url(home_url('/')); ?>">
-            <img class="nav-logo" src="<?php echo esc_url( $logo_url ); ?>" alt="<?php bloginfo('name'); ?> logo" />
+            <img class="nav-logo" src="<?php echo esc_url( $logo_url ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?> logo" />
         </a>
 
         <button class="nav-toggle" aria-expanded="false" aria-controls="primary-menu" aria-label="Open menu">
