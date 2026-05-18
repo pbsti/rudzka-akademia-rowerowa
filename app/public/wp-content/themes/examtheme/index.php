@@ -9,7 +9,7 @@
            ?>
 
             <!-- Hero Section -->
-            <section id="hero" class="hero hero-home" style="background: url(<?php echo esc_url( $heroimage['url'] ?? '' ); ?>) no-repeat center center/cover;">
+            <section id="hero" class="hero hero-home" style="background: url(<?php echo esc_url( $heroimage['url'] ?? '' ); ?>) no-repeat center center/cover;" role="img" aria-label="Hero banner - Rudzka Akademia Rowerowa">
                 <div class="hero-content">
                 <h1>Rudzka Akademia Rowerowa</h1>
                 <p>Dla wszystkich, którzy chcą dobrze się bawić podczas jazdy na rowerze!</p>
@@ -35,10 +35,10 @@
                 <h2>Wydarzenia</h2>
                 <div class="container">
                     <a href="<?php echo esc_url(get_permalink(get_page_by_path('events-page'))); ?>">
-                        <div class="image-container children " style="background: url(<?php echo esc_url( $eventimagechildren['url'] ?? '' ); ?>) no-repeat center center/cover;"><p>Dzieci / Młodzież</p></div>
+                        <div class="image-container children " style="background: url(<?php echo esc_url( $eventimagechildren['url'] ?? '' ); ?>) no-repeat center center/cover;" role="img" aria-label="Dzieci i młodzież - Wydarzenia rowerowe"><p>Dzieci / Młodzież</p></div>
                     </a>
                     <a href="<?php echo esc_url(get_permalink(get_page_by_path('events-page'))); ?>">
-                        <div class="image-container adults" style="background: url(<?php echo esc_url( $eventimageadults['url'] ?? '' ); ?>) no-repeat center center/cover;"><p>Osoby dorosłe</p></div>
+                        <div class="image-container adults" style="background: url(<?php echo esc_url( $eventimageadults['url'] ?? '' ); ?>) no-repeat center center/cover;" role="img" aria-label="Osoby dorosłe - Wydarzenia rowerowe"><p>Osoby dorosłe</p></div>
                     </a>
                 </div>
                 <a href="<?php echo esc_url(get_permalink(get_page_by_path('events-page'))); ?>" class="btn btn-secondary">Dołącz do nas</a>
@@ -51,7 +51,7 @@
             </section>
             
             <!-- Contact Section -->
-            <section id="contact" class="contact contact-image" style="background: url(<?php echo esc_url( $contactimage['url'] ?? '' ); ?>) no-repeat center center/cover;">
+            <section id="contact" class="contact contact-image" style="background: url(<?php echo esc_url( $contactimage['url'] ?? '' ); ?>) no-repeat center center/cover;" role="img" aria-label="Sekcja kontaktu - Skontaktuj się z nami">
                 <div class="contact-content">
                     <h2>“NADAL MASZ WĄTPLIWOŚCI?”</h2>
                     <p>Skontaktuj się z nami, jeśli masz pytania.</p>

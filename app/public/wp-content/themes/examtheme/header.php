@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="<?php echo esc_attr( is_home() || is_front_page() ? 'Rudzka Akademia Rowerowa - szkoła jazdy na rowerze dla dzieci, młodzieży i dorosłych. Kursy, treningi i obozy letnie.' : wp_trim_words( get_the_excerpt(), 20, '...' ) ); ?>">
+    <meta name="keywords" content="akademia rowerowa, jazda na rowerze, kursy rowerowe, szkoła jazdy, obozy letnie, Rudzka">
+    <meta name="theme-color" content="#9AC31B">
+    <meta name="robots" content="index, follow">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet" />

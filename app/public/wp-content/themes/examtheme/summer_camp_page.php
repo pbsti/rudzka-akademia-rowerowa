@@ -12,7 +12,7 @@ Template Name: Summer Camp Page
            $campcontact = get_field('camp_contact');
            ?>
 
-            <section id="hero-camp" class="hero hero-camp " style="background: url(<?php echo esc_url( $campimage['url'] ?? '' ); ?>) no-repeat center center/cover;">
+            <section id="hero-camp" class="hero hero-camp " style="background: url(<?php echo esc_url( $campimage['url'] ?? '' ); ?>) no-repeat center center/cover;" role="img" aria-label="Hero sekcja - Obóz Rowerowy VIP Pieniny">
                 <div class="hero-content">
                     <h1>Obóz Rowerowy VIP Pieniny 2026: Twoje Dziecko w Świecie Pasji i Przygody!</h1>
                 </div>
@@ -62,7 +62,7 @@ Template Name: Summer Camp Page
             </section>
 
             <!-- Contact Section -->
-            <section id="contact-camp" class="contact contact-image" style="background: url(<?php echo esc_url( $campcontact['url'] ?? '' ); ?>) no-repeat center center/cover;">
+            <section id="contact-camp" class="contact contact-image" style="background: url(<?php echo esc_url( $campcontact['url'] ?? '' ); ?>) no-repeat center center/cover;" role="img" aria-label="Sekcja kontaktu - Pytania o obóz letni">
                 <div class="contact-content">
                     <h2>“MASZ PYTANIA?”</h2>
                     <p>Skontaktuj się z nami, jeśli chcesz dowiedzieć się więcej o obozie letnim.</p>

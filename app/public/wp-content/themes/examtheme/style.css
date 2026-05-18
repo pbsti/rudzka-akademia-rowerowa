@@ -425,7 +425,7 @@ p {
 .about-events p{
   padding: 0 3rem;
 }
-.t1 {
+.t1, .t2 {
   position: relative;
   width: 100%;
   height: 60vh;
@@ -433,11 +433,11 @@ p {
   transform-style: preserve-3d;
 }
 
-.team-card1:hover .t1 {
+.team-card1:hover .t1, .team-card2:hover .t2 {
   transform: rotateY(180deg);
 }
 
-.t1_front, .t1_back {
+.t1_front, .t1_back, .t2_front, .t2_back {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -445,17 +445,17 @@ p {
   border-radius: 25px;
 }
 
-.t1_back{
+.t1_back, .t2_back{
   background-color: var(--secondary-color);
   color: var(--light-color);
   transform: rotateY(180deg);
 }
 
-.t1_back p {
+.t1_back p, .t2_back p {
   font-family: 'Baloo Chettan 2', cursive;
   padding: 2rem;
 }
-.t1_back h3 {
+.t1_back h3, .t2_back h3 {
   font-family: 'Baloo Chettan 2', cursive;
   margin: 0;
   padding: 2rem;

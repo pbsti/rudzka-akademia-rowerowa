@@ -33,7 +33,7 @@ $show_all_button = $total_posts > 2;
                 ?>
                 <article class="news-card<?php echo $hidden_class; ?>"<?php echo $hidden_style; ?>>
                     <a class="news-card-link" href="<?php echo esc_url($url); ?>">
-                        <div class="news-card-image" style="<?php echo esc_attr($image_style); ?>"></div>
+                        <div class="news-card-image" style="<?php echo esc_attr($image_style); ?>" role="img" aria-label="<?php echo esc_attr( $title ); ?> - artykuł wiadomości"></div>
                         <div class="news-card-content">
                             <div class="news-card-details"><?php echo esc_html($date); ?> • <?php echo esc_html($author); ?></div>
                             <h3><?php echo esc_html($title); ?></h3>

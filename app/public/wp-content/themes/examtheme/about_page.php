@@ -17,7 +17,7 @@ Template Name: About Page
            ?>
 
     
-            <section id="hero-about" class="hero hero-about " style="background: url(<?php echo esc_url( $aboutheroimg['url'] ?? '' ); ?>) no-repeat center center/cover;">
+            <section id="hero-about" class="hero hero-about " style="background: url(<?php echo esc_url( $aboutheroimg['url'] ?? '' ); ?>) no-repeat center center/cover;" role="img" aria-label="Hero sekcja - Poznaj nasz zespół">
                 <div class="hero-content">
                     <h1>POZNAJ NASZ ZESPÓŁ</h1>
                 </div>
@@ -44,7 +44,7 @@ Template Name: About Page
                             <a href="<?php echo esc_url(get_permalink(get_page_by_path('events-page'))); ?>" class="btn btn-secondary">Zobacz wydarzenia</a>
                         </div>
                     </div>
-                    <div class="image-container about-image " style="background: url(<?php echo esc_url( $aboutimg['url'] ?? '' ); ?>) no-repeat center center/cover;"></div>
+                    <div class="image-container about-image " style="background: url(<?php echo esc_url( $aboutimg['url'] ?? '' ); ?>) no-repeat center center/cover;" role="img" aria-label="Obraz o nas - Rudzka Akademia Rowerowa"></div>
                 </div>
             </div>
 
@@ -54,20 +54,27 @@ Template Name: About Page
                 <div class="container">
                     <div class="image-container team-card1">
                         <div class= "team-card-inner t1">
-                            <div class="t1_front" style="background: url(<?php echo esc_url( $teamimg1['url'] ?? '' ); ?>) no-repeat center center/cover;"></div>
+                            <div class="t1_front" style="background: url(<?php echo esc_url( $teamimg1['url'] ?? '' ); ?>) no-repeat center center/cover;" role="img" aria-label="Bartłomiej Warzecha - członek zespołu"></div>
                             <div class= "t1_back">
-                                <h3> Pan Bartek</h3>
-                                <p>Założyciel i główny instruktor RAR. Pasjonat rowerów, który od lat dzieli się swoją wiedzą i doświadczeniem z młodymi rowerzystami.</p>
+                                <h3> Bartłomiej Warzecha</h3>
+                                <p>Pomysłodawca i założyciel Szkoły Pływania Posejdon, fizjoterapeuta, instruktor pływania i ratownik WOPR z wieloletnim doświadczeniem. Trener personalny, sędzia pływania oraz ratownik kwalifikowanej pierwszej pomocy.</p>
                             </div>
                         </div>
                     </div>
-
-                    <div class="image-container t2_front" style="background: url(<?php echo esc_url( $teamimg2['url'] ?? '' ); ?>) no-repeat center center/cover;"><p>Pan Marcin</p></div>
+                    <div class="image-container team-card2">
+                        <div class= "team-card-inner t2">
+                             <div class="t2_front" style="background: url(<?php echo esc_url( $teamimg2['url'] ?? '' ); ?>) no-repeat center center/cover;" role="img" aria-label="Marcin Michalik - członek zespołu"></div>
+                            <div class="t2_back">
+                                <h3> Marcin Michalik</h3>
+                                <p>Współzałożyciel Szkoły Pływania Posejdon, instruktor pływania i ratownik WOPR z wieloletnim doświadczeniem. Ratownik kwalifikowanej pierwszej pomocy, sternik motorowodny oraz specjalista w zakresie ratownictwa wodnego i powodziowego.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
 
             <!-- Contact Section -->
-            <section id="contact" class="contact" style="background: url(<?php echo esc_url( $aboutcontactimg['url'] ?? '' ); ?>) no-repeat center center/cover;">
+            <section id="contact" class="contact" style="background: url(<?php echo esc_url( $aboutcontactimg['url'] ?? '' ); ?>) no-repeat center center/cover;" role="img" aria-label="Sekcja kontaktu - Skontaktuj się z nami">
                 <div class="contact-content">
                     <h2>“NADAL MASZ WĄTPLIWOŚCI?”</h2>
                     <p>Skontaktuj się z nami, jeśli masz pytania.</p>
