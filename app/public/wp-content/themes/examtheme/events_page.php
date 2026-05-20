@@ -60,7 +60,7 @@ Template Name: Events and Registration Page
             <!-- Contact Section -->
                 <section id="contact" class="contact" style="background: url(<?php echo esc_url( $contactimgevents['url'] ?? '' ); ?>) no-repeat center center/cover;" role="img" aria-label="Sekcja kontaktu - Skontaktuj się z nami">
                     <div class="contact-content">
-                        <h2>“NADAL MASZ WĄTPLIWOŚCI?”</h2>
+                        <h2>NADAL MASZ WĄTPLIWOŚCI?</h2>
                         <p>Skontaktuj się z nami, jeśli masz pytania.</p>
                         <div class="button-container">
                             <a href="<?php echo esc_url(get_permalink(get_page_by_path('contact-page'))); ?>" class="btn btn-primary">Zadzwoń do nas</a>
