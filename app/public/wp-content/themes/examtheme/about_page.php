@@ -27,7 +27,7 @@ Template Name: About Page
             <section id="mission" class="container-primary">
                 <h2> Nasza misja </h2>
                 <div class="container">
-                    <p>Jednym z głównych celów naszej organizacji jest aktywizowanie dzieci, młodzieży, jak również dorosłych poprzez jazdę na rowerze oraz turystykę rowerową i pieszą. Zachęcenie wszystkich do zmiany trybu życia, działań prozdrowotnych.</p>
+                    <p>Naszym celem jest promowanie aktywności fizycznej dla dzieci, młodzieży i dorosłych poprzez jazdę na rowerze, wycieczki rowerowe oraz wspólne aktywności na świeżym powietrzu. Chcemy zachęcać do zdrowego i aktywnego stylu życia poprzez sport i budowanie rowerowej społeczności.</p>
                 </div>
                 <div class="container">
                     <div class="inner-container facts"><i class="fa-solid fa-medal" style="font-size: 4rem;"></i><p class="bold">DOŚWIADCZENIE</p></div>
@@ -39,7 +39,8 @@ Template Name: About Page
             <div class="container-secondary">
                 <div class="split-container">
                     <div class="inner-container about-events">
-                        <p>Jazda na rowerze to świetny sposób na aktywność, zdrowie i dobrą zabawę na świeżym powietrzu. A wszystko staje się jeszcze lepsze, gdy możemy dzielić te chwile razem podczas naszych zajęć i wydarzeń rowerowych.</p>
+                        <h2> Dlaczego warto jeździć na rowerze? </h2>
+                        <p>Jazda na rowerze to doskonały sposób na rozwój, aktywność fizyczną i dobrą zabawę na świeżym powietrzu. Organizowane przez nas zajęcia rowerowe dla dzieci oraz wydarzenia sportowe pomagają budować pewność siebie, relacje i pasję do aktywnego stylu życia.</p>
                         <div class="button-container">
                             <a href="<?php echo esc_url(get_permalink(get_page_by_path('events-page'))); ?>" class="btn btn-secondary">Zobacz wydarzenia</a>
                         </div>

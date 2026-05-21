@@ -17,8 +17,8 @@ Template Name: Events and Registration Page
                     <div class="split-container">
                         <div class="image-container events-image" style="background: url(<?php echo esc_url( $eventsimage['url'] ?? '' ); ?>) no-repeat center center/cover;" role="img" aria-label="Aktywnie razem - Wydarzenia rowerowe"></div>
                         <div class="inner-container events-intro">
-                            <h2>AKTYWNIE RAZEM</h2>
-                            <p>Sprawdź nasze nadchodzące wyjazdy rowerowe oraz letnie obozy pełne aktywności, nauki i świetnej zabawy. Dołącz do naszej społeczności i spędź czas aktywnie razem z nami. </p>
+                            <h2>Aktywnie razem - obozy i wycieczki rowerowe</h2>
+                            <p>Organizujemy wycieczki rowerowe oraz obozy letnie dla dzieci pełne sportu, aktywności fizycznej i dobrej zabawy. To idealna okazja, aby rozwijać pasję do jazdy na rowerze i spędzać aktywnie czas na świeżym powietrzu.</p>
                             <div class="button-container">
                                 <a href="<?php echo esc_url(get_permalink(get_page_by_path('events-page')) . '#calendar'); ?>" class="btn btn-secondary">ZOBACZ KALENDARZ</a>
                             </div>
@@ -34,7 +34,7 @@ Template Name: Events and Registration Page
                     <h2>LETTNIE OBOZY</h2>
                     <div class="container-camps">
                         <div class="inner-container">
-                            <p>Sprawdź nasze nadchodzące wyjazdy rowerowe oraz letnie obozy pełne aktywności, nauki i świetnej zabawy. Dołącz do naszej społeczności i spędź czas aktywnie razem z nami. </p>
+                            <p>Nasze obozy letnie dla dzieci łączą sport, przygodę i wspólne aktywności na świeżym powietrzu. Każdy wyjazd to połączenie jazdy na rowerze, nauki nowych umiejętności i budowania niezapomnianych wspomnień.</p>
                         <div class="image-container camps-image" style="background: url(<?php echo esc_url( $campimg['url'] ?? '' ); ?>) no-repeat center center/cover;" role="img" aria-label="Letnie obozy - Wakacje w standardzie VIP">
                             <p>Wakacje w standardzie VIP dla Twojego dziecka!</p>
                         </div>
