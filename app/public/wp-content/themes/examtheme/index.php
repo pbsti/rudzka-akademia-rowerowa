@@ -33,7 +33,7 @@
             <!-- Events Section -->
             <section id="events" class="events container-primary">
                 <h2>Wydarzenia</h2>
-                <div class="container">
+                <div class="container events-homepage">
                     <a href="<?php echo esc_url(get_permalink(get_page_by_path('events-page'))); ?>">
                         <div class="image-container children " style="background: url(<?php echo esc_url( $eventimagechildren['url'] ?? '' ); ?>) no-repeat center center/cover;" role="img" aria-label="Dzieci i młodzież - Wydarzenia rowerowe"><p>Dzieci / Młodzież</p></div>
                     </a>

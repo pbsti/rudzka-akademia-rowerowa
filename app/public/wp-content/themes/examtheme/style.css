@@ -364,7 +364,7 @@ p {
 
 /* Events Category Homepage */
 
-.container a{
+.events-homepage a{
   width: 100%;
   text-decoration: none;
 }
@@ -915,7 +915,8 @@ p {
     height: 40vh;
   }
 
-  .t1{
+
+  .t1, .t2{
   height: 40vh;
   }
 }
