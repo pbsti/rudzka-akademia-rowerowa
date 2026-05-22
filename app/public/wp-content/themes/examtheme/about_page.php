@@ -52,26 +52,7 @@ Template Name: About Page
             <!-- Team Section -->
             <section id="team" class="team container-primary">
                 <h2>NASZ ZESPÓŁ</h2>
-                <div class="container">
-                    <div class="image-container team-card1">
-                        <div class= "team-card-inner t1">
-                            <div class="t1_front" style="background: url(<?php echo esc_url( $teamimg1['url'] ?? '' ); ?>) no-repeat center center/cover;" role="img" aria-label="Bartłomiej Warzecha - członek zespołu"></div>
-                            <div class= "t1_back">
-                                <h3> Bartłomiej Warzecha</h3>
-                                <p>Pomysłodawca i założyciel Szkoły Pływania Posejdon, fizjoterapeuta, instruktor pływania i ratownik WOPR z wieloletnim doświadczeniem. Trener personalny, sędzia pływania oraz ratownik kwalifikowanej pierwszej pomocy.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="image-container team-card2">
-                        <div class= "team-card-inner t2">
-                             <div class="t2_front" style="background: url(<?php echo esc_url( $teamimg2['url'] ?? '' ); ?>) no-repeat center center/cover;" role="img" aria-label="Marcin Michalik - członek zespołu"></div>
-                            <div class="t2_back">
-                                <h3> Marcin Michalik</h3>
-                                <p>Współzałożyciel Szkoły Pływania Posejdon, instruktor pływania i ratownik WOPR z wieloletnim doświadczeniem. Ratownik kwalifikowanej pierwszej pomocy, sternik motorowodny oraz specjalista w zakresie ratownictwa wodnego i powodziowego.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <?php get_template_part('template-parts/instructor'); ?>
             </section>
 
             <!-- Contact Section -->
