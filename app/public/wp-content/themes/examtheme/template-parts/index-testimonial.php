@@ -7,7 +7,7 @@ $arguments = array(
 
 $loop = new WP_Query($arguments);
 ?>
-<div class="container">
+<div class="testimonial-area">
     <?php if($loop->have_posts()): ?>
             <?php while ($loop->have_posts()): $loop->the_post()?>
             <?php

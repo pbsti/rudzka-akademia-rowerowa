@@ -801,3 +801,31 @@ Stack trace:
   thrown in C:\Users\Q\Local Sites\rudzka-akademia-rowerowa\app\public\wp-content\themes\examtheme\functions.php on line 13
 [19-May-2026 11:28:54 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Q\Local Sites\rudzka-akademia-rowerowa\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 367
 [19-May-2026 11:28:54 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\Q\Local Sites\rudzka-akademia-rowerowa\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 368
+[21-May-2026 17:04:29 UTC] PHP Warning:  Undefined variable $email_footer in C:\Users\Q\Local Sites\rudzka-akademia-rowerowa\app\public\wp-content\themes\examtheme\footer.php on line 14
+[21-May-2026 17:04:29 UTC] PHP Warning:  Undefined variable $email_footer in C:\Users\Q\Local Sites\rudzka-akademia-rowerowa\app\public\wp-content\themes\examtheme\footer.php on line 16
+[21-May-2026 17:04:29 UTC] PHP Warning:  Undefined variable $phone_footer in C:\Users\Q\Local Sites\rudzka-akademia-rowerowa\app\public\wp-content\themes\examtheme\footer.php on line 18
+[21-May-2026 17:04:29 UTC] PHP Warning:  Undefined variable $phone_footer in C:\Users\Q\Local Sites\rudzka-akademia-rowerowa\app\public\wp-content\themes\examtheme\footer.php on line 20
+[21-May-2026 17:04:40 UTC] PHP Warning:  Undefined variable $email_footer in C:\Users\Q\Local Sites\rudzka-akademia-rowerowa\app\public\wp-content\themes\examtheme\footer.php on line 14
+[21-May-2026 17:04:40 UTC] PHP Warning:  Undefined variable $email_footer in C:\Users\Q\Local Sites\rudzka-akademia-rowerowa\app\public\wp-content\themes\examtheme\footer.php on line 16
+[21-May-2026 17:04:40 UTC] PHP Warning:  Undefined variable $phone_footer in C:\Users\Q\Local Sites\rudzka-akademia-rowerowa\app\public\wp-content\themes\examtheme\footer.php on line 18
+[21-May-2026 17:04:40 UTC] PHP Warning:  Undefined variable $phone_footer in C:\Users\Q\Local Sites\rudzka-akademia-rowerowa\app\public\wp-content\themes\examtheme\footer.php on line 20
+[21-May-2026 17:05:09 UTC] PHP Warning:  Undefined variable $email_footer in C:\Users\Q\Local Sites\rudzka-akademia-rowerowa\app\public\wp-content\themes\examtheme\footer.php on line 14
+[21-May-2026 17:05:09 UTC] PHP Warning:  Undefined variable $email_footer in C:\Users\Q\Local Sites\rudzka-akademia-rowerowa\app\public\wp-content\themes\examtheme\footer.php on line 16
+[21-May-2026 17:05:09 UTC] PHP Warning:  Undefined variable $phone_footer in C:\Users\Q\Local Sites\rudzka-akademia-rowerowa\app\public\wp-content\themes\examtheme\footer.php on line 18
+[21-May-2026 17:05:09 UTC] PHP Warning:  Undefined variable $phone_footer in C:\Users\Q\Local Sites\rudzka-akademia-rowerowa\app\public\wp-content\themes\examtheme\footer.php on line 20
+[21-May-2026 17:05:19 UTC] PHP Warning:  Undefined variable $email_footer in C:\Users\Q\Local Sites\rudzka-akademia-rowerowa\app\public\wp-content\themes\examtheme\footer.php on line 14
+[21-May-2026 17:05:19 UTC] PHP Warning:  Undefined variable $email_footer in C:\Users\Q\Local Sites\rudzka-akademia-rowerowa\app\public\wp-content\themes\examtheme\footer.php on line 16
+[21-May-2026 17:05:19 UTC] PHP Warning:  Undefined variable $phone_footer in C:\Users\Q\Local Sites\rudzka-akademia-rowerowa\app\public\wp-content\themes\examtheme\footer.php on line 18
+[21-May-2026 17:05:19 UTC] PHP Warning:  Undefined variable $phone_footer in C:\Users\Q\Local Sites\rudzka-akademia-rowerowa\app\public\wp-content\themes\examtheme\footer.php on line 20
+[21-May-2026 17:06:07 UTC] PHP Warning:  Undefined variable $email_footer in C:\Users\Q\Local Sites\rudzka-akademia-rowerowa\app\public\wp-content\themes\examtheme\footer.php on line 14
+[21-May-2026 17:06:07 UTC] PHP Warning:  Undefined variable $email_footer in C:\Users\Q\Local Sites\rudzka-akademia-rowerowa\app\public\wp-content\themes\examtheme\footer.php on line 16
+[21-May-2026 17:06:07 UTC] PHP Warning:  Undefined variable $phone_footer in C:\Users\Q\Local Sites\rudzka-akademia-rowerowa\app\public\wp-content\themes\examtheme\footer.php on line 18
+[21-May-2026 17:06:07 UTC] PHP Warning:  Undefined variable $phone_footer in C:\Users\Q\Local Sites\rudzka-akademia-rowerowa\app\public\wp-content\themes\examtheme\footer.php on line 20
+[21-May-2026 17:06:12 UTC] PHP Warning:  Undefined variable $email_footer in C:\Users\Q\Local Sites\rudzka-akademia-rowerowa\app\public\wp-content\themes\examtheme\footer.php on line 14
+[21-May-2026 17:06:12 UTC] PHP Warning:  Undefined variable $email_footer in C:\Users\Q\Local Sites\rudzka-akademia-rowerowa\app\public\wp-content\themes\examtheme\footer.php on line 16
+[21-May-2026 17:06:12 UTC] PHP Warning:  Undefined variable $phone_footer in C:\Users\Q\Local Sites\rudzka-akademia-rowerowa\app\public\wp-content\themes\examtheme\footer.php on line 18
+[21-May-2026 17:06:12 UTC] PHP Warning:  Undefined variable $phone_footer in C:\Users\Q\Local Sites\rudzka-akademia-rowerowa\app\public\wp-content\themes\examtheme\footer.php on line 20
+[21-May-2026 17:08:05 UTC] PHP Warning:  Undefined variable $email_footer in C:\Users\Q\Local Sites\rudzka-akademia-rowerowa\app\public\wp-content\themes\examtheme\footer.php on line 14
+[21-May-2026 17:08:05 UTC] PHP Warning:  Undefined variable $email_footer in C:\Users\Q\Local Sites\rudzka-akademia-rowerowa\app\public\wp-content\themes\examtheme\footer.php on line 16
+[21-May-2026 17:08:05 UTC] PHP Warning:  Undefined variable $phone_footer in C:\Users\Q\Local Sites\rudzka-akademia-rowerowa\app\public\wp-content\themes\examtheme\footer.php on line 18
+[21-May-2026 17:08:05 UTC] PHP Warning:  Undefined variable $phone_footer in C:\Users\Q\Local Sites\rudzka-akademia-rowerowa\app\public\wp-content\themes\examtheme\footer.php on line 20

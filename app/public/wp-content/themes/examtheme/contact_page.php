@@ -94,8 +94,8 @@ get_header(); ?>
             </section>
         
             <!-- FAQ Section --> 
-            <section id="faq" class="faq container-primary">
-                <h2>FAQ</h2>
+            <section id="faq" class=" container-primary faq-section">
+                <h2>Najczęściej zadawane pytania</h2>
                 <div class="faq-box">
                     <h3>Czy można zapisać się na kurs jazdy na rowerze bez wcześniejszego doświadczenia?</h3>
                     <p>Tak, prowadzimy zajęcia zarówno dla początkujących dzieci, jak i dorosłych. Instruktorzy dopasowują poziom nauki do uczestnika, dzięki czemu każdy może uczyć się w swoim tempie.</p>

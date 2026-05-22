@@ -14,7 +14,7 @@
                 <h1>Rudzka Akademia Rowerowa</h1>
                 <p>Dla wszystkich, którzy chcą dobrze się bawić podczas jazdy na rowerze!</p>
                     <div class="button-container">
-                        <a href="<?php echo esc_url(get_permalink(get_page_by_path('events-page'))); ?>" class="btn btn-secondary">Dołącz do nas</a>
+                        <a href="<?php echo esc_url(get_permalink(get_page_by_path('kontakt'))); ?>" class="btn btn-secondary">Dołącz do nas</a>
                     </div>
                 </div>
             </section>
@@ -27,25 +27,25 @@
                     <div class="inner-container"> <i class="fa-solid fa-user-check" style="font-size: 4rem;"></i> <p> Ponad 10 lat doświadczenia</p></div>
                     <div class="inner-container"> <i class="fa-solid fa-campground" style="font-size: 4rem;"></i> <p>Niezapomniane wyjazdy i obozy</p></div>
                 </div>
-                <a href="<?php echo esc_url(get_permalink(get_page_by_path('about'))); ?>" class="btn btn-secondary">Dowiedz się więcej</a>
+                <a href="<?php echo esc_url(get_permalink(get_page_by_path('o-nas'))); ?>" class="btn btn-secondary">Dowiedz się więcej</a>
             </section>
 
             <!-- Events Section -->
             <section id="events" class="events container-primary">
                 <h2>Wydarzenia</h2>
                 <div class="container events-homepage">
-                    <a href="<?php echo esc_url(get_permalink(get_page_by_path('events-page'))); ?>">
+                    <a href="<?php echo esc_url(get_permalink(get_page_by_path('wydarzenia'))); ?>">
                         <div class="image-container children " style="background: url(<?php echo esc_url( $eventimagechildren['url'] ?? '' ); ?>) no-repeat center center/cover;" role="img" aria-label="Dzieci i młodzież - Wydarzenia rowerowe"><p>Dzieci / Młodzież</p></div>
                     </a>
-                    <a href="<?php echo esc_url(get_permalink(get_page_by_path('events-page'))); ?>">
+                    <a href="<?php echo esc_url(get_permalink(get_page_by_path('wydarzenia'))); ?>">
                         <div class="image-container adults" style="background: url(<?php echo esc_url( $eventimageadults['url'] ?? '' ); ?>) no-repeat center center/cover;" role="img" aria-label="Osoby dorosłe - Wydarzenia rowerowe"><p>Osoby dorosłe</p></div>
                     </a>
                 </div>
-                <a href="<?php echo esc_url(get_permalink(get_page_by_path('events-page'))); ?>" class="btn btn-secondary">Dołącz do nas</a>
+                <a href="<?php echo esc_url(get_permalink(get_page_by_path('wydarzenia'))); ?>" class="btn btn-secondary">Dołącz do nas</a>
             </section>
 
             <!-- Testimonials Section -->
-            <section id="testimonials" class="testimonials container-secondary">
+            <section id="testimonials" class="container-secondary testimonials">
                 <h2>CO MÓWIĄ NASI UCZESTNICY</h2>
                 <?php get_template_part('template-parts/index', 'testimonial'); ?>
             </section>
@@ -56,8 +56,8 @@
                     <h2>NADAL MASZ WĄTPLIWOŚCI?</h2>
                     <p>Skontaktuj się z nami, jeśli masz pytania.</p>
                     <div class="button-container">
-                        <a href="<?php echo esc_url(get_permalink(get_page_by_path('contact-page'))); ?>" class="btn btn-primary">Zadzwoń do nas</a>
-                        <a href="<?php echo esc_url(get_permalink(get_page_by_path('contact-page')) . '#contact-form'); ?>" class="btn btn-light">Wyślij wiadomość</a>
+                        <a href="<?php echo esc_url(get_permalink(get_page_by_path('kontakt'))); ?>" class="btn btn-primary">Zadzwoń do nas</a>
+                        <a href="<?php echo esc_url(get_permalink(get_page_by_path('kontakt')) . '#contact-form'); ?>" class="btn btn-light">Wyślij wiadomość</a>
                     </div>
                 </div>
             </section>

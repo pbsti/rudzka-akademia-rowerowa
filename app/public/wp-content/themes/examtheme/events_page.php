@@ -31,7 +31,7 @@ Template Name: Events and Registration Page
 
             <!-- Summer Camps Section -->
                 <section id="summer-camps" class="summer-camps container-primary">
-                    <h2>LETTNIE OBOZY</h2>
+                    <h2>LETNIE OBOZY</h2>
                     <div class="container-camps">
                         <div class="inner-container">
                             <p>Nasze obozy letnie dla dzieci łączą sport, przygodę i wspólne aktywności na świeżym powietrzu. Każdy wyjazd to połączenie jazdy na rowerze, nauki nowych umiejętności i budowania niezapomnianych wspomnień.</p>
@@ -39,8 +39,8 @@ Template Name: Events and Registration Page
                             <p>Wakacje w standardzie VIP dla Twojego dziecka!</p>
                         </div>
                             <div class="button-container">
-                                <a href="<?php echo esc_url(get_permalink(get_page_by_path('events-page')) . '#calendar'); ?>" class="btn btn-secondary">Zobacz kalendarz</a>
-                                <a href="<?php echo esc_url(get_permalink(get_page_by_path('summer-camp'))); ?>" class="btn btn-primary">Zobacz obóz letni</a>
+                                <a href="<?php echo esc_url(get_permalink(get_page_by_path('wydarzenia')) . '#calendar'); ?>" class="btn btn-secondary">Zobacz kalendarz</a>
+                                <a href="<?php echo esc_url(get_permalink(get_page_by_path('letnie-obozy'))); ?>" class="btn btn-primary">Zobacz obóz letni</a>
                             </div>
                         </div>
                     </div>
@@ -63,8 +63,8 @@ Template Name: Events and Registration Page
                         <h2>NADAL MASZ WĄTPLIWOŚCI?</h2>
                         <p>Skontaktuj się z nami, jeśli masz pytania.</p>
                         <div class="button-container">
-                            <a href="<?php echo esc_url(get_permalink(get_page_by_path('contact-page'))); ?>" class="btn btn-primary">Zadzwoń do nas</a>
-                            <a href="<?php echo esc_url(get_permalink(get_page_by_path('contact-page')) . '#contact-form'); ?>" class="btn btn-light">Wyślij wiadomość</a>
+                            <a href="<?php echo esc_url(get_permalink(get_page_by_path('kontakt'))); ?>" class="btn btn-primary">Zadzwoń do nas</a>
+                            <a href="<?php echo esc_url(get_permalink(get_page_by_path('kontakt')) . '#contact-form'); ?>" class="btn btn-light">Wyślij wiadomość</a>
                         </div>
                     </div>
                 </section>

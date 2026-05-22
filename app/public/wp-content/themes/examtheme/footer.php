@@ -1,5 +1,9 @@
     <footer>
-      <?php $logo_url = get_stylesheet_directory_uri() . '/original/images/logo.png'; ?>
+      <?php 
+      $logo_url = get_stylesheet_directory_uri() . '/original/images/logo.png'; 
+      $phone = get_field ('phone');
+      $email = get_field ('email');
+      ?>
 
         <div class="footer-content">
           <a class="footer-logo" href="<?php echo esc_url(home_url('/')); ?>">
@@ -7,25 +11,21 @@
           </a>
           <div class="contact-info">
             <h3>Kontakt</h3>
-            <a href="mailto:biurouksrar@gmail.com">
+            <a href="mailto:<?php echo esc_url($email); ?>">
               <i class="fa-solid fa-envelope" style="font-size: 2rem; color: #1E212B;"></i>
-              <p>biurouksrar@gmail.com</p>
+              <p><?php echo esc_html($email); ?></p>
             </a>
-            <a href="tel:+48 602 480 400">
+            <a href="tel:<?php echo esc_html($phone); ?>">
               <i class="fa-solid fa-phone" style="font-size: 2rem; color: #1E212B;"></i>
-              <p>+48 602 480 400</p>
-            </a>
-            <a href="https://maps.google.com/?q=Rudzka Akademia Rowerowa" target="_blank">
-              <i class="fa-solid fa-map-marker-alt" style="font-size: 2rem; color: #1E212B;"></i>
-              <p>Rudzka Akademia Rowerowa</p>
+              <p><?php echo esc_html($phone); ?></p>
             </a>
           </div>
           <div class="quick-links">
-            <h3>Szybkie linki</h3>
-            <p><a href="<?php echo esc_url(get_permalink(get_page_by_path('frontpage'))); ?>">Strona główna</a></p>
-            <p><a href="<?php echo esc_url(get_permalink(get_page_by_path('about'))); ?>">O nas</a></p>
-            <p><a href="<?php echo esc_url(get_permalink(get_page_by_path('events-page'))); ?>">Wydarzenia</a></p>
-            <p><a href="<?php echo esc_url(get_permalink(get_page_by_path('contact-page'))); ?>">Kontakt</a></p>
+            <h3>Skróty</h3>
+            <p><a href="<?php echo esc_url(get_permalink(get_page_by_path('strona-glowna'))); ?>">Strona główna</a></p>
+            <p><a href="<?php echo esc_url(get_permalink(get_page_by_path('o-nas'))); ?>">O nas</a></p>
+            <p><a href="<?php echo esc_url(get_permalink(get_page_by_path('wydarzenia'))); ?>">Wydarzenia</a></p>
+            <p><a href="<?php echo esc_url(get_permalink(get_page_by_path('kontakt'))); ?>">Kontakt</a></p>
           </div>
           <div class="social-icons">
             <h3>Zaobserwuj nas</h3>

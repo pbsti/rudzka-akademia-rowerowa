@@ -205,7 +205,7 @@ p {
   border: none;
   border-radius: 100px;
   background-color: var(--secondary-color);
-  color: var(--light-color);
+  color: var(--tertiary-color);
   text-decoration: none;
   display: flex;
   align-items: center;
@@ -228,7 +228,7 @@ p {
   color: var(--light-color);
 }
 .btn-secondary:hover{
-  color: var(--tertiary-color);
+  color: var(--light-color);
 }
 
 .btn-light:hover {
@@ -329,6 +329,11 @@ p {
   gap: 2rem;
 }
 
+.faq-section {
+  padding: 0 0 6rem 0; 
+}
+  
+
 .faq-box{
   width: 60%;
   background-color: var(--tertiary-color);
@@ -385,6 +390,7 @@ p {
 
 /* Testimonials Section */
 .testimonial-card {
+  max-width: 280px;
   background-color:transparent;
   padding: 2.5rem;
   border-radius: 25px;
@@ -476,6 +482,12 @@ p {
 }
 
 /*Summer Camp Page */
+
+.camps h1{
+  width:80%;
+  text-align: center;
+  margin: 0 auto;
+}
 .camps h3{
   margin: 0;
   font-weight: 400;
@@ -527,11 +539,9 @@ p {
   color: var(--primary-color);
 }
 
-
-
 /*News Section */
 
-.news-container {
+.news-container, .testimonial-area {
   width: 60%;
   display: flex;
   gap: 2rem;
@@ -669,6 +679,10 @@ p {
 
 .calendar-section p a:hover {
   text-decoration: underline;
+}
+
+.simcal-default-calendar-grid>table{
+  font-family: 'IBM Plex Sans', sans-serif;
 }
 
 /* Contact Page and Form */
