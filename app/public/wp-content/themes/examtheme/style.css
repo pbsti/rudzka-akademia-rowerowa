@@ -451,6 +451,16 @@ p {
   border-radius: 25px;
 }
 
+.instructor_front {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.instructor_front h3 {
+  display: none;
+}
+
 .instructor_back{
   background-color: var(--secondary-color);
   color: var(--light-color);
@@ -939,6 +949,10 @@ p {
   .instructor h3{
     padding: 0.5rem;
     margin: 0;
+  }
+
+  .instructor_front h3 {
+  display: inline;
   }
 
   .hero {

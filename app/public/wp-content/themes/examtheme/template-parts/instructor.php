@@ -17,7 +17,9 @@ $loop = new WP_Query($arguments);
                 ?>
                 <div class="image-container instructor-card">
                     <div class= "instructor-card-inner instructor">
-                        <div class="instructor_front" style="background: url(<?php echo esc_url( $instructorphoto['url'] ?? '' ); ?>) no-repeat center center/cover;" role="img" aria-label="Bartłomiej Warzecha - członek zespołu"></div>
+                        <div class="instructor_front" style="background: url(<?php echo esc_url( $instructorphoto['url'] ?? '' ); ?>) no-repeat center center/cover;" role="img" aria-label="Bartłomiej Warzecha - członek zespołu">
+                            <h3><i class="fa-solid fa-hand-pointer" style="font-size: 3rem;"></i> <br> Kliknij po więcej!</h3>
+                        </div>
                         <div class= "instructor_back">
                             <h3><?php echo esc_html($instructorname); ?></h3>
                             <p><?php echo esc_html($instructordescription); ?></p>
