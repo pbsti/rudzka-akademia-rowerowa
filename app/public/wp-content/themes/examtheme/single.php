@@ -17,7 +17,7 @@
                     <?php the_content(); ?>
                 </div>
                 <div class="button-container single-post-button">
-                    <a href="<?php echo esc_url(get_permalink(get_page_by_path('events-page')) . '#news'); ?>" class="btn btn-secondary">Powrót do aktualności</a>
+                    <a href="<?php echo esc_url(get_permalink(get_page_by_path('wydarzenia')) . '#news'); ?>" class="btn btn-secondary">Powrót do aktualności</a>
                 </div>
             </section>
         <?php endwhile; ?>

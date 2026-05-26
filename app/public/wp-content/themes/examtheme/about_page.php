@@ -42,7 +42,7 @@ Template Name: About Page
                         <h2> Dlaczego warto jeździć na rowerze? </h2>
                         <p>Jazda na rowerze to doskonały sposób na rozwój, aktywność fizyczną i dobrą zabawę na świeżym powietrzu. Organizowane przez nas zajęcia rowerowe dla dzieci oraz wydarzenia sportowe pomagają budować pewność siebie, relacje i pasję do aktywnego stylu życia.</p>
                         <div class="button-container">
-                            <a href="<?php echo esc_url(get_permalink(get_page_by_path('events-page'))); ?>" class="btn btn-secondary">Zobacz wydarzenia</a>
+                            <a href="<?php echo esc_url(get_permalink(get_page_by_path('wydarzenia'))); ?>" class="btn btn-secondary">Zobacz wydarzenia</a>
                         </div>
                     </div>
                     <div class="image-container about-image " style="background: url(<?php echo esc_url( $aboutimg['url'] ?? '' ); ?>) no-repeat center center/cover;" role="img" aria-label="Obraz o nas - Rudzka Akademia Rowerowa"></div>
@@ -61,8 +61,8 @@ Template Name: About Page
                     <h2>NADAL MASZ WĄTPLIWOŚCI?</h2>
                     <p>Skontaktuj się z nami, jeśli masz pytania.</p>
                 <div class="button-container">
-                    <a href="<?php echo esc_url(get_permalink(get_page_by_path('contact-page'))); ?>" class="btn btn-primary">Zadzwoń do nas</a>
-                    <a href="<?php echo esc_url(get_permalink(get_page_by_path('contact-page')) . '#contact-form'); ?>" class="btn btn-light">Wyślij wiadomość</a>
+                    <a href="<?php echo esc_url(get_permalink(get_page_by_path('kontakt'))); ?>" class="btn btn-primary">Zadzwoń do nas</a>
+                    <a href="<?php echo esc_url(get_permalink(get_page_by_path('kontakt')) . '#contact-form'); ?>" class="btn btn-light">Wyślij wiadomość</a>
                 </div>
                 </div>
             </section>

@@ -958,6 +958,13 @@ p {
   .hero {
     height: 40vh;
   }
+
+  .hero-home {
+    height: 100vh !important;
+  }
+	.hero-camp {
+    height: 100vh !important;
+  }
 }
 
 @media (max-width: 480px) {
